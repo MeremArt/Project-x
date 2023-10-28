@@ -93,3 +93,10 @@
   height: 200vh;
   width: 100%;
 }
+.aboutimg {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698524075/aboutprojectx_cdkk5c.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}

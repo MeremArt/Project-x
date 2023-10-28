@@ -1,0 +1,95 @@
+.heroproject {
+  background-color: #070707;
+  height: 300px;
+  width: 100%;
+}
+.Programpillar {
+  background-color: #070707;
+  height: 100%;
+  width: 100%;
+}
+.heroproject h2 {
+  color: var(--grayscale-off-white, #fcfcfc);
+  text-align: center;
+  font-family: Clash Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.heroproject p {
+  color: var(--grayscale-off-white, #fcfcfc);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.aboutproject h2 {
+  color: #070707;
+  font-family: Clash Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.aboutproject {
+  justify-content: left;
+  display: flex;
+}
+.aboutp {
+  color: var(--grayscale-body, #4e4b66);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.projectwhite {
+  background-color: #f2f5f5;
+  background: #f2f5f5;
+}
+.potential h2 {
+  color: var(--grayscale-off-black, #14142b);
+  text-align: center;
+  font-family: Clash Display;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.potential p {
+  color: var(--grayscale-body, #4e4b66);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.propil {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.program_x_section {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698525906/centered_rkptej.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 200vh;
+  width: 100%;
+}

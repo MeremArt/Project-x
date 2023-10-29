@@ -87,7 +87,15 @@
 }
 
 .program_x_section {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698525906/centered_rkptej.png");
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698537512/hope_d5etbh.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 200vh;
+  width: 100%;
+}
+
+.program_x_section2 {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698537219/Pour_jwvqmd.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
   height: 200vh;
@@ -102,4 +110,238 @@
 }
 * {
   overflow-x: hidden;
+}
+
+.firstcohort {
+  border-radius: 8px;
+  border: 1.5px solid var(--grayscale-off-black, #14142b);
+  background: #070707;
+  /* display: flex; */
+  /* width: 1240px; */
+  /* padding: 40px; */
+  /* flex-direction: column;
+  align-items: flex-start;
+  gap: 48px; */
+}
+.firstcohort h2 {
+  color: var(--grayscale-off-white, #fcfcfc);
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  padding-left: 20px;
+}
+.firstcohort p {
+  color: var(--BG, #f1f5f5);
+  font-family: Satoshi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  padding-left: 20px;
+}
+
+button {
+  border-radius: 100px !important;
+  border: 0.706px solid var(--grayscale-off-white, #fcfcfc);
+  background: var(--BG, #f1f5f5);
+  display: flex;
+  padding: 13px 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.467px;
+  color: #070707;
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 80% */
+}
+.firstmaster {
+  border: 1.5px solid #070707;
+  background: #effe60;
+}
+.firstmaster h2 {
+  color: #070707;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.firstmaster h1 {
+  color: #14142b;
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.firstmaster p {
+  color: var(--grayscale-ash, #262338);
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  align-self: stretch;
+}
+
+.masterclass1 {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698540056/Bg_spy94l.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.masterclass2 {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698540711/Bg_1_qezbw4.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
+.secondmaster {
+  border: 1.5px solid #070707;
+  background: #5eb857;
+}
+.secondmaster h2 {
+  color: #070707;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+
+.secondmaster h1 {
+  color: #14142b;
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.secondmaster p {
+  color: var(--grayscale-ash, #262338);
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  align-self: stretch;
+}
+.thirdmaster {
+  border: 1.5px solid #f1f5f5;
+  background: #dd4c72;
+}
+.thirdmaster h2 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.thirdmaster h1 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.thirdmaster p {
+  color: #f1f5f5;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  align-self: stretch;
+}
+
+.masterclass3 {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698541244/Bg_2_m0ckri.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
+.forthmaster {
+  border: 1.5px solid #f1f5f5;
+  background: #8858f5;
+}
+.forthmaster h2 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.forthmaster p {
+  color: #f1f5f5;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  align-self: stretch;
+}
+.forthmaster h1 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.cohort p {
+  color: var(--grayscale-body, #4e4b66);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.volunter {
+  background-image: url(" https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698543000/volunter_afr9rh.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.provolunter p {
+  color: var(--grayscale-body, #4e4b66);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
 }

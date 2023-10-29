@@ -345,3 +345,35 @@ button {
   line-height: normal;
   letter-spacing: 0.12px;
 }
+.Impact {
+  border: 1.5px solid var(--grayscale-off-black, #14142b);
+  background: #effe60;
+}
+.Impact h2 {
+  color: #070707;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.Impact p {
+  color: var(--grayscale-ash, #262338);
+  font-family: Satoshi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.Impact h1 {
+  color: var(--grayscale-off-black, #14142b);
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}

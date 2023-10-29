@@ -1,4 +1,4 @@
-.aontainer {
+/* .aontainer {
   width: 200px;
   height: 400px;
   overflow: hidden;
@@ -7,6 +7,13 @@
   align-items: center;
   justify-content: center;
   position: relative;
+}
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 .box-container {
@@ -57,4 +64,4 @@
 
 .apply-button:hover {
   background-color: #2ecc52;
-}
+} */

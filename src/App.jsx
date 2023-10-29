@@ -3,6 +3,8 @@ import SwitchingDivs from "./component/SwitchingDivs";
 import "./App.css";
 import Navbar from "./component/Navbar/Navbar";
 import { links } from "../data";
+import SlidingDiv from "./component/SlidingDiv";
+import ReverseSlide from "./component/ReverseSlide";
 function App() {
   const hrStyle = {
     width: "100%", // Adjust the width as needed
@@ -15,6 +17,10 @@ function App() {
       <main className="projectwhite">
         <section className="heroproject">
           <div className="container">
+            <br />
+            <br />
+            <br />
+            <br />
             <center>
               <div>
                 <h2>Unleash your awesomeness & Ignite your inner spark</h2>
@@ -26,7 +32,25 @@ function App() {
               <br />
             </center>
           </div>
+          <br />
         </section>
+        <div className="cover-slide">
+          <div className="row">
+            <div className="col-lg-2">
+              <div className="slide-it">
+                <ReverseSlide />
+              </div>
+            </div>
+            <div className="col-lg-2">
+              <div className="slide-it">
+                <SlidingDiv />
+              </div>
+            </div>
+            <div className="col-lg-8">
+              <div className="herohappy"></div>
+            </div>
+          </div>
+        </div>
         <br />
         <br />
         <br />

@@ -11,6 +11,11 @@ function App() {
     border: "1px solid black", // Set the line color, style, and width
     margin: "10px auto", // Center the line horizontally
   };
+  const WStyle = {
+    width: "100%", // Adjust the width as needed
+    border: "1px solid #fff", // Set the line color, style, and width
+    margin: "10px auto", // Center the line horizontally
+  };
   return (
     <>
       <Navbar links={links} />
@@ -115,20 +120,50 @@ function App() {
           <br />
           <br />
           <br />
+          <hr style={WStyle} />
           <div className="container">
             <div className="">
               <h2 className="propil">Program pillars</h2>
             </div>
           </div>
+          <hr style={WStyle} />
           <br />
           <br />
           <br />
           <br />
-          <div className="program_x_section"></div>
+          <div className="program_x_section">
+            <div className="position_element">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-8">
+                    <h2>Take charge & change! Join the community</h2>
+                  </div>
+                  <div className="col-lg-4">
+                    <button>Apply now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <br />
           <br />
           <br />
-          <div className="program_x_section2"></div>
+          <div className="program_x_section2">
+            <div className="position_element">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-8">
+                    <h2>
+                      Become part of the 1%! <br /> join the community
+                    </h2>
+                  </div>
+                  <div className="col-lg-4">
+                    <button>Apply now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <br />
           <br />
         </section>

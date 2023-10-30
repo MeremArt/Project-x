@@ -395,3 +395,17 @@ button {
   letter-spacing: 0.28px;
   text-transform: uppercase;
 }
+.position_element h2 {
+  color: var(--grayscale-off-white, #fcfcfc);
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.position_element {
+  position: relative;
+  top: 610px;
+  left: 113px;
+}

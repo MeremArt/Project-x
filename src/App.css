@@ -178,7 +178,15 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 16px; /* 80% */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
+button:hover {
+  /* Change the background color, text color, and border color on hover */
+  background-color: var(--Hover-BG, #dcdcdc);
+  color: var(--Hover-Text, #000);
+  border-color: var(--Hover-Border, #999);
+}
+
 .firstmaster {
   border: 1.5px solid #070707;
   background: #effe60;
@@ -408,4 +416,40 @@ button {
   position: relative;
   top: 610px;
   left: 113px;
+}
+
+.footer {
+  border-top: 1.5px solid #f1f5f5;
+  border-bottom: 1.5px solid #f1f5f5;
+  background: #070707;
+}
+.footer h2 {
+  color: var(--grayscale-line, #d9dbe9);
+  font-family: Clash Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+}
+.footer p {
+  color: #f1f5f5;
+  font-family: Satoshi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+.footer h1 {
+  color: var(--grayscale-line, #d9dbe9);
+  text-align: right;
+  font-family: Clash Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
 }

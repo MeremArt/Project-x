@@ -86,7 +86,13 @@ function App() {
           <br />
           <div className="container">
             <center>
-              <div className="aboutimg"></div>
+              <div className="aboutim">
+                <img
+                  className="img_abt"
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698524075/aboutprojectx_cdkk5c.png"
+                  alt="image"
+                />
+              </div>
             </center>
           </div>
         </section>

@@ -101,12 +101,15 @@
   height: 200vh;
   width: 100%;
 }
-.aboutimg {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698524075/aboutprojectx_cdkk5c.png");
-  background-size: cover; /* Scale the background image to cover the entire element */
-  background-repeat: no-repeat;
-  height: 500px;
+
+.aboutim {
+  height: 100%;
   width: 100%;
+}
+
+.img_abt {
+  width: 100%;
+  height: 100%;
 }
 .herohappy {
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698606966/Rectangle_569_b6ucci.png");
@@ -467,5 +470,7 @@ button:hover {
   }
   button {
     padding: 10px 21px;
+  }
+  .aboutimg {
   }
 }

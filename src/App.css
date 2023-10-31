@@ -453,3 +453,15 @@ button:hover {
   letter-spacing: 0.16px;
   text-transform: uppercase;
 }
+/* CSS for tablet (landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .program_x_section {
+    height: 1076px;
+  }
+  .program_x_section2 {
+    height: 1076px;
+  }
+  .position_element {
+    top: 488px;
+  }
+}

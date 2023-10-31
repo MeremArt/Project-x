@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import logo from "../../assets/Project.svg";
 import "./Navbar.css";
@@ -6,20 +6,10 @@ import "./Navbar.css";
 const Navbar = ({ links }) => {
   const [showLinks, setShowLinks] = useState(false);
   const linksContainerRef = useRef(null);
-  const linksRef = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
   };
-
-  useEffect(() => {
-    const linksHeight = linksRef.current.getBoundingClientRect().height;
-    if (showLinks) {
-      linksContainerRef.current.style.height = `${linksHeight}px`;
-    } else {
-      linksContainerRef.current.style.height = "0px";
-    }
-  }, [showLinks]);
 
   return (
     <nav className="Beans_navbody">
@@ -30,12 +20,15 @@ const Navbar = ({ links }) => {
             <FaBars />
           </button>
         </div>
-        <div className="Beans-contain" ref={linksContainerRef}>
-          <ul className="Beans_links" ref={linksRef}>
+        <div
+          className={`Beans-contain ${showLinks ? "show-links" : ""}`}
+          ref={linksContainerRef}
+        >
+          <ul className="Beans_links">
             {links.map((link) => (
               <li key={link.id}>
                 <a className="holy_bean" href={link.url}>
-                  {link.text}
+                  {/* {link.text} */}
                 </a>
               </li>
             ))}

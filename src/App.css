@@ -132,7 +132,9 @@
   background-color: #000;
   background-image: linear-gradient(to right, #000 50%, transparent 50%);
 }
-
+.padrocket {
+  padding-left: 70px;
+}
 .firstcohort {
   border-radius: 8px;
   border: 1.5px solid var(--grayscale-off-black, #14142b);

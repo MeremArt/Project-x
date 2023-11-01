@@ -486,4 +486,10 @@ button:hover {
   }
   .aboutimg {
   }
+  .cover-slide {
+    height: 110vh;
+  }
+  .herohappy {
+    height: 110vh;
+  }
 }

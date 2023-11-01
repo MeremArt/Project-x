@@ -90,15 +90,15 @@
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698537512/hope_d5etbh.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
-  height: 200vh;
-  width: 100%;
+  height: 1300px;
+  width: 100vw;
 }
 
 .program_x_section2 {
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698537219/Pour_jwvqmd.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
-  height: 200vh;
+  height: 1300px;
   width: 100%;
 }
 

@@ -462,10 +462,10 @@ button:hover {
 /* CSS for tablet (landscape) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .program_x_section {
-    height: 1076px;
+    height: 1028px;
   }
   .program_x_section2 {
-    height: 1076px;
+    height: 1028px;
   }
   .position_element {
     top: 488px;

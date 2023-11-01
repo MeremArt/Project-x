@@ -477,6 +477,7 @@ button:hover {
   } */
 
   .position_element {
+    left: 92px;
     top: 456px;
   }
   button {

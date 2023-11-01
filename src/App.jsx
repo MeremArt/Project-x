@@ -148,7 +148,9 @@ function App() {
               <div className="container">
                 <div className="row">
                   <div className="col-lg-8">
-                    <h2>Take charge & change! Join the community</h2>
+                    <h2>
+                      Take charge & change! <br /> Join the community
+                    </h2>
                   </div>
                   <div className="col-lg-4">
                     <button>Apply now</button>

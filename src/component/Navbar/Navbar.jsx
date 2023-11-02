@@ -28,7 +28,7 @@ const Navbar = ({ links }) => {
             {links.map((link) => (
               <li key={link.id}>
                 <a className="holy_bean" href={link.url}>
-                  {/* {link.text} */}
+                  {link.text}
                 </a>
               </li>
             ))}

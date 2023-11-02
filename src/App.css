@@ -90,16 +90,18 @@
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698875678/Group_16_r1typz.svg");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
-  height: 1300px;
-  width: 100vw;
+  height: calc(100vw); /* Set height to 50% of the viewport width */
+  width: calc(100vw);
 }
 
 .program_x_section2 {
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698876273/Group_14_wsbi7u.svg");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
-  height: 1300px;
-  width: 100%;
+  /* height: 1300px;
+  width: 100%; */
+  height: calc(100vw); /* Set height to 50% of the viewport width */
+  width: calc(100vw); /* Set width to 50% of the viewport width */
 }
 
 .aboutim {
@@ -419,10 +421,15 @@ button:hover {
   line-height: normal;
   letter-spacing: 0.24px;
 }
-.position_element {
+/* .position_element {
   position: relative;
   top: 610px;
   left: 113px;
+} */
+.position_element {
+  position: relative;
+  top: calc(88vh);
+  left: calc(9vw); /* Set left to 5% of the viewport width */
 }
 
 .footer {
@@ -462,14 +469,14 @@ button:hover {
 }
 /* CSS for tablet (landscape) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .program_x_section {
+  /* .program_x_section {
     height: 1028px;
     color: green;
   }
   .program_x_section2 {
     height: 1028px;
     color: green;
-  }
+  } */
   /* .program_x_section2 h2 {
     color: green;
   }
@@ -487,9 +494,9 @@ button:hover {
   .aboutimg {
   }
   .cover-slide {
-    height: 110vh;
+    height: 88vh;
   }
   .herohappy {
-    height: 110vh;
+    height: 88vh;
   }
 }

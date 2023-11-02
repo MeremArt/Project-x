@@ -90,6 +90,15 @@ a {
 .show-container {
   height: 10rem;
 }
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
 @media screen and (min-width: 800px) {
   .Beans_nav-center {
     max-width: 1170px;
@@ -102,9 +111,9 @@ a {
   .Beans_nav-header {
     padding: 0;
   }
-  .nav-toggle {
+  /* .nav-toggle {
     display: none;
-  }
+  } */
   .Beans-contain {
     height: auto !important;
   }

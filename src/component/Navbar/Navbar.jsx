@@ -17,7 +17,7 @@ const Navbar = ({ links }) => {
         <div className="Beans_nav-header">
           <img src={logo} className="logo" alt="logo" />
           <button className="nav-toggle" onClick={toggleLinks}>
-            <FaBars />
+            {/* <FaBars /> */}
           </button>
         </div>
         <div
@@ -28,7 +28,7 @@ const Navbar = ({ links }) => {
             {links.map((link) => (
               <li key={link.id}>
                 <a className="holy_bean" href={link.url}>
-                  {link.text}
+                  {/* {link.text} */}
                 </a>
               </li>
             ))}

@@ -1,4 +1,4 @@
-=============== Global Styles =============== */ ul {
+ul {
   list-style-type: none;
 }
 a {
@@ -98,10 +98,16 @@ a {
   transition: var(--transition);
   cursor: pointer;
 }
-
+@media screen and (max-width: 768px) {
+  .Beans_nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 @media screen and (min-width: 800px) {
   .Beans_nav-center {
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: 0 auto;
     display: flex;
     align-items: center;

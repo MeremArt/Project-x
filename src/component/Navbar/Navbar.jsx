@@ -1,14 +1,22 @@
 import React, { useState, useRef } from "react";
 import { FaBars } from "react-icons/fa";
 import logo from "../../assets/Project.svg";
+import Hamburger from "/images/Hamburger1.svg";
+import Close from "/images/Close.svg";
 import "./Navbar.css";
+import Navmodal from "../NavModal/Navmodal";
 
 const Navbar = ({ links }) => {
   const [showLinks, setShowLinks] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
   const linksContainerRef = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
+  };
+
+  const toggleHandler = () => {
+    setToggleMenu((prev) => !prev);
   };
 
   return (
@@ -20,20 +28,14 @@ const Navbar = ({ links }) => {
             {/* <FaBars /> */}
           </button>
         </div>
-        <div
-          className={`Beans-contain ${showLinks ? "show-links" : ""}`}
-          ref={linksContainerRef}
-        >
-          <ul className="Beans_links">
-            {links.map((link) => (
-              <li key={link.id}>
-                <a className="holy_bean" href={link.url}>
-                  {/* {link.text} */}
-                </a>
-              </li>
-            ))}
-          </ul>
+        <div ref={linksContainerRef} onClick={toggleHandler}>
+          <img
+            src={!toggleMenu ? Hamburger : Close}
+            alt="Close tab or hamburger"
+          />
+          {/* <img src={Close} alt="Close tab or hamburger" /> */}
         </div>
+        {toggleMenu && <Navmodal />}
       </div>
     </nav>
   );

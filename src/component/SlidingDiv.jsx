@@ -28,7 +28,9 @@ function SlidingDiv() {
           </p>
           <br />
           <br />
-          <button className="btb">Apply now</button>
+          <button id="btn-animation" className="btb">
+            Apply now
+          </button>
           <br />
         </center>
       </div>

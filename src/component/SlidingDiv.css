@@ -133,3 +133,38 @@
   font-weight: 700;
   line-height: 16px; /* 80% */
 }
+@media (max-width: 768px) {
+  .sliding-div-container {
+    width: 125px;
+  }
+  .content-above p {
+    font-size: 8px;
+    /* margin-bottom: 10px; */
+  }
+  .content-below {
+    width: 125px;
+  }
+  .content-below h2 {
+    font-size: 12px;
+  }
+  .content-above p {
+    font-size: 8px;
+  }
+  .content-above h2 {
+    font-size: 12px;
+  }
+  .content-above {
+    width: 125px;
+  }
+  #btn-animation {
+    font-size: 10px;
+
+    font-weight: 600;
+    line-height: 10px; /* 80% */
+  }
+  #Svg_img {
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -47,18 +47,18 @@ function App() {
         </section>
         <div className="cover-slide">
           <div className="row">
-            <div className="col-lg-2">
+            <div className="col-lg-2 col-md-2">
               <div className="slide-it">
                 <ReverseSlide />
               </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 col-md-2">
               <div className="slide-it">
                 <SlidingDiv />
               </div>
             </div>
-            <div className="col-lg-8">
-              <div className="herohappy"></div>
+            <div className="col-lg-8 col-md-8">
+              <div className="herohappy"> </div>
             </div>
           </div>
         </div>
@@ -147,13 +147,13 @@ function App() {
             <div className="position_element">
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-8">
+                  <div className="col-lg-8 col-md-8">
                     <h2>
                       Take charge & change! <br /> Join the community
                     </h2>
                   </div>
-                  <div className="col-lg-4">
-                    <button>Apply now</button>
+                  <div className="col-lg-4 col-md-4">
+                    <button id="move-btn">Apply now</button>
                   </div>
                 </div>
               </div>
@@ -166,13 +166,13 @@ function App() {
             <div className="position_element">
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-8">
+                  <div className="col-lg-8 col-md-8">
                     <h2>
                       Become part of the 1%! <br /> join the community
                     </h2>
                   </div>
-                  <div className="col-lg-4">
-                    <button>Apply now</button>
+                  <div className="col-lg-4 col-md-4">
+                    <button id="move-btn">Apply now</button>
                   </div>
                 </div>
               </div>
@@ -308,6 +308,7 @@ function App() {
               <br />
             </div>
           </div>
+          {/*where i want to work on*/}
           <div className="masterclass1"></div>
           <div className="secondmaster">
             <br />

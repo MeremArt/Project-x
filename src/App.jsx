@@ -81,11 +81,11 @@ function App() {
               facing many young people today. Without access to positive role
               models and guidance, many young people struggle to make the right
               choices and navigate the challenges of adulthood. This can lead to
-              a range of negative outcomes, including poor academic performance
-              , social isolation, substance abuse, and even criminal behavior.
-              To address this problem,<strong>Project X</strong> program which
-              aims to provide young people with the support and guidance they
-              need to reach their full potential.
+              a range of negative outcomes, including poor performance, social
+              isolation, substance abuse, and even criminal behavior. To address
+              this problem,<strong>Project X </strong> aims to provide young
+              people with the support and guidance they need to reach their full
+              potential.
             </p>
           </div>
           <br />
@@ -107,21 +107,19 @@ function App() {
         <div className="container potential">
           <center>
             <br />
-            <h2>Are you ready to rock your potential and take on the world?</h2>
+            <h2>
+              Are you ready to explore your potential and take on the world?
+            </h2>
             <br />
             <br />
             <p>
-              At <strong>X</strong>, we believe that every young person deserves
-              the opportunity to realize their full potential. That's why we're
-              dedicated to providing mentorship and empowerment programs to help
-              young people thrive.
-              <br />
-              <br />
-              Our mission is to connect young people with experienced mentors
-              who can guide them through the challenges of growing up and help
-              them develop the skills and confidence they need to succeed. We
-              believe that by providing young people with the right tools and
-              resources, we can create a brighter future for everyone.
+              Every young person deserves the opportunity to realize their full
+              potential. Our mission is to connect young people with well
+              curated programs and experienced mentors who can guide them
+              through the challenges of growing up and help them develop the
+              skills and confidence they need to succeed. We believe that by
+              providing the right tools and resources, we can create a brighter
+              future for everyone.
             </p>
           </center>
         </div>
@@ -206,11 +204,13 @@ function App() {
               preparing for college, a young entrepreneur looking to start a
               business, or someone seeking to develop leadership skills, we have
               programs that can help you reach your full potential. At{" "}
-              <strong>X</strong> we are committed to providing high-quality,
-              impactful workshops and programs that inspire, motivate, and
-              support the next generation of leaders.
-              <br /> Our workshop is broken down into 4 masterclasses to ensure
-              that we target all the core areas of your personality;
+              <strong>Project X</strong> we are committed to providing
+              high-quality, impactful workshops and programs that inspire,
+              motivate, and support the next generation of leaders.
+              <br />
+              Our workshop is broken down into 4 masterclasses to ensure that we
+              target all the core areas of your personal and professional
+              development;
             </p>
           </div>
           <br />
@@ -303,7 +303,7 @@ function App() {
               <h1>Investing in Oneself</h1>
               <p>
                 This masterclass will cover everything from Personal Development
-                Planning,Building a Professional Network & Pursuing Passions
+                Planning, Building a Professional Network & Pursuing Passions
               </p>
               <br />
             </div>
@@ -342,7 +342,7 @@ function App() {
             <div className="container">
               <h1>Maturity and Responsibility</h1>
               <p>
-                We would be handling the followoing keey areas Decision Making,
+                We would be handling the following key areas Decision Making,
                 Conflict Resolution, Leadership, Personal Finance and
                 Responsibility
               </p>
@@ -365,8 +365,7 @@ function App() {
               <h1>Patriotism and Social Capital</h1>
               <p>
                 Civic Engagement, Volunteerism, Building Strong Communities and
-                Global Citizenship will be the key focus area in this
-                masterclass
+                Global Citizenship.
               </p>
               <br />
             </div>
@@ -452,20 +451,15 @@ function App() {
         <section className="container">
           <div className="cohort">
             <p>
-              Workshops and mentorship programs are powerful tools for youth
-              empowerment and personal development. Through these programs,
-              young people can develop valuable skills, gain career guidance,
-              network with professionals, and build confidence. Workshops
-              provide a structured environment for skill development, offering
-              guidance and support as young people learn new competencies.
-              Mentorship programs offer the additional benefit of one-on-one
-              guidance, where young people can learn from the experiences of
-              experienced professionals. By participating in these workshops and
-              mentorship programs, you can gain a competitive edge in their
-              personal and professional lives, opening doors to new
-              opportunities and helping you achieve their goals. Ultimately,
-              these programs can be instrumental in helping you reach your full
-              potential and make a positive impact in your communities.
+              These workshops provide a structured environment for skill
+              development, offering guidance and support as young people learn
+              new competencies. The Project X mentorship programs offer the
+              additional benefit of one-on-one guidance, where young people can
+              learn from the experiences of experienced professionals. By
+              participating in these workshops and mentorship programs, you can
+              gain a competitive edge, open doors to new opportunities, receive
+              support in achieving your goals and make a positive impact in your
+              communities.
             </p>
           </div>
         </section>

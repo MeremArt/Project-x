@@ -95,7 +95,7 @@ function App() {
               <div className="aboutim">
                 <img
                   className="img_abt"
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698524075/aboutprojectx_cdkk5c.png"
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699656155/Frame_864_ledisy.png"
                   alt="image"
                 />
               </div>

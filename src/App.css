@@ -120,7 +120,9 @@
   height: 88vh;
   width: 100%;
 }
-
+#Desx {
+  display: none;
+}
 @media screen and (max-width: 800px) {
   /* .herohappy{
       background-size: none;
@@ -632,7 +634,7 @@ button:hover {
   }
   .herohappy {
     height: 88vh;
-    width: 100%%;
+    width: 100%;
   }
 }
 
@@ -643,5 +645,24 @@ button:hover {
   }
   .col-lg-8 h2 {
     font-size: 12px;
+  }
+  #Desx {
+    display: flex;
+    height: fit-content;
+  }
+  #mobile {
+    display: none;
+  }
+  .slide-it {
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    flex-direction: row;
+  }
+
+  .herohappy {
+    margin-bottom: 20px;
+    height: 260px;
+    width: 100%;
   }
 }

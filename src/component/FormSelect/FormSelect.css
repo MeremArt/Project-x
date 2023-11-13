@@ -1,0 +1,31 @@
+.FormSelect_container{
+    display:flex;
+    flex-direction: column;
+}
+
+.FormSelect_container label{
+    font-size: 16px;
+    font-family: Clash Display;
+    word-wrap: break-word;
+    color: #38383A;
+    font-weight: 500; 
+    line-height: 20px; 
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.FormSelect_container select{
+    width:360px;
+    height:24px;
+    padding:16px 12px;
+    border-radius: 8px;
+    outline :none;
+    background: none;
+    border: 1px solid  #999CA0;
+    color: #999CA0;
+    font-size: 16px;
+    font-family: Clash Display;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word
+}

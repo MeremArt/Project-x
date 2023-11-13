@@ -1,0 +1,9 @@
+.Header_container{
+    border-bottom:2px solid #EBEBEB ;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40%;
+}
+.Header_container p{
+    color: #000;
+}

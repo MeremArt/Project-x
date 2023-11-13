@@ -5,6 +5,7 @@ import Navbar from "./component/Navbar/Navbar";
 import { links } from "../data";
 import SlidingDiv from "./component/SlidingDiv";
 import ReverseSlide from "./component/ReverseSlide";
+import MainApplyNow from "./component/ApplyNowModal/MainApplyNow";
 function App() {
   const hrStyle = {
     width: "100%", // Adjust the width as needed
@@ -16,6 +17,13 @@ function App() {
     border: "1px solid #fff", // Set the line color, style, and width
     margin: "10px auto", // Center the line horizontally
   };
+  const [toggleModal , setToggleModal]= useState(false);
+  const fire =()=>{
+    setToggleModal(true);
+  }
+  const OffFire =()=>{
+    setToggleModal(false);
+  }
   return (
     <>
       <Navbar links={links} />
@@ -35,9 +43,10 @@ function App() {
               <br />
               <p>let's Embark on a Journey of Growth!</p>
               <br />
-              <button>Apply now</button>
+              <button onClick={fire}>Apply now!</button>
               <br />
             </center>
+            {toggleModal && <MainApplyNow OffFire ={OffFire } />}
             <br />
             <br />
             <br />

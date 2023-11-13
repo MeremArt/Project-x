@@ -1,0 +1,90 @@
+.Main_container{
+    /* border: 1px solid green; */
+    width: 100%;
+    color: #000;
+    height: 100%;
+}
+.display_container{
+    display: grid;
+    grid-template-areas: " a  b  c"
+                        "d  e  f"
+                        "g  h  i";
+
+     grid-gap: 10px;
+
+     margin-top:20px;
+}
+.display_container a {
+    grid-area: "a";
+}
+.display_container b {
+    grid-area: "b";
+}
+.display_container c {
+    grid-area: "c";
+}
+.display_container d {
+    grid-area: "d";
+}
+.display_container e{
+    grid-area: "e";
+}
+.display_container f {
+    grid-area: "f";
+}
+.display_container g {
+    grid-area: "g";
+}
+.display_container h {
+    grid-area: "h";
+}
+.display_container i {
+    grid-area: "i";
+}
+
+.Bottom_container{
+    display: grid;
+    grid-template-areas: "ab cd"
+                        " ef  gh";
+    grid-gap: 10px;
+    margin:30px 0px;
+   
+  
+}
+.Exclamationy{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center !important;
+    gap: 5px;
+    justify-content: flex-start;
+    padding: 12px;
+    width: 45%;
+    border-radius: 8px;
+    background: #F0F1F2;
+}
+.divine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back_color{
+    border-bottom:2px solid #EBEBEB ;
+    margin: 40px 0px 20px 0px;
+}
+.Exclamationy span{
+    color: #14142B;
+    font-size: 12px;
+    font-family: Abhaya Libre Medium;
+    font-weight: 500;
+    /* line-height: 18px; */
+    word-wrap: break-word;
+    margin: none !important;
+    border-radius: 8px;
+}
+.Button_last{
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+    margin:30px 0px;
+}
+

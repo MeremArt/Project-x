@@ -17,6 +17,7 @@ function App() {
     border: "1px solid #fff", // Set the line color, style, and width
     margin: "10px auto", // Center the line horizontally
   };
+
   const [toggleModal , setToggleModal]= useState(false);
   const fire =()=>{
     setToggleModal(true);
@@ -55,7 +56,7 @@ function App() {
           <br />
         </section>
         <div id="Desx" className="cover-slide">
-          <div className="container">
+          <div className="">
             <div className="col-sm-6">
               <div className="slide-it">
                 <ReverseSlide />

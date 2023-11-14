@@ -16,7 +16,7 @@ const handleFileChange = (event) => {
 };
 
 return (
-  <div >
+  <div className="File_num">
         <label>
         Reference letter (Limit to 200 words).
         </label>

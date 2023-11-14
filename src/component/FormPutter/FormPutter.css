@@ -36,4 +36,22 @@
   input[type="file"] {
     display:none;
   }
+  .File_num label{
+    font-size: 16px;
+    font-family: Clash Display;
+    word-wrap: break-word;
+    color: #38383A;
+    font-weight: 500; 
+    line-height: 20px; 
+    word-wrap: break-word;
+    margin-bottom: 10px;
+
+  }
+  @media (max-width: 768px) {
+      .File_num {
+          padding: 0px 20px;
+          
+      }
+
+}
   

@@ -54,19 +54,37 @@ function App() {
           </div>
           <br />
         </section>
-        <div className="cover-slide">
+        <div id="Desx" className="cover-slide">
+          <div className="container">
+            <div className="col-sm-6">
+              <div className="slide-it">
+                <ReverseSlide />
+                <SlidingDiv />
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="herohappy"> </div>
+            </div>
+            {/* <div className="col-sm-6">
+              <div className="herohappy"> </div>
+            </div> */}
+          </div>
+        </div>
+        <div id="mobile" className="cover-slide">
           <div className="row">
-            <div className="col-lg-2 col-md-2">
+            <div className="col-lg-2 col-md-2  ">
               <div className="slide-it">
                 <ReverseSlide />
               </div>
             </div>
-            <div className="col-lg-2 col-md-2">
+
+            <div className="col-lg-2 col-md-2 ">
               <div className="slide-it">
                 <SlidingDiv />
               </div>
             </div>
-            <div className="col-lg-8 col-md-8">
+
+            <div className="col-lg-8 col-md-8 ">
               <div className="herohappy"> </div>
             </div>
           </div>
@@ -104,7 +122,7 @@ function App() {
               <div className="aboutim">
                 <img
                   className="img_abt"
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698524075/aboutprojectx_cdkk5c.png"
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699656155/Frame_864_ledisy.png"
                   alt="image"
                 />
               </div>

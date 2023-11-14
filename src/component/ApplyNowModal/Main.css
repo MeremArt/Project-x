@@ -17,3 +17,9 @@
     display: inline-flex;
     z-index: 1;
 }
+@media (max-width: 768px) {
+    .Main{
+        padding-left: 0px;
+        padding-right: 0px;
+    }   
+}

@@ -11,11 +11,15 @@ export default function FormTextArea({id, placeholder, type, title}) {
             >
                 {title}
             </label>
-            <input
+            {/* <input
                 type={type}
                 placeholder={placeholder}
 
-            />
+            /> */}
+            <textarea type={type}>
+              {placeholder}
+            </textarea>
+
         </span>
       </div>
       </div>

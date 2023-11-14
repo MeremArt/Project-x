@@ -7,3 +7,10 @@
 .Header_container p{
     color: #000;
 }
+@media(max-width:786px){
+    .Header_container{
+        padding: 10px 10px;
+        background: #fff;
+        gap: 30%;
+    }   
+}

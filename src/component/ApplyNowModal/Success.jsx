@@ -15,7 +15,7 @@ export default function Success({OffFire}) {
             </div>
            
             <div className='success_2'>
-                <button style={{backgroundColor:"#000", color: "#fff"}}>
+                <button style={{backgroundColor:"#14142B", color: "#fff"}}>
                     Return to home 
                 </button>
             </div>

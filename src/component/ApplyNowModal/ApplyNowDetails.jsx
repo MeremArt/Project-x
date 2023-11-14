@@ -129,8 +129,8 @@ export default function ApplyNowDetails({OffFire}) {
             </div>
             <div className='back_color'></div>
             <div className="Button_last">
-                <button>Cancel</button>
-                <button>Apply now</button>
+                <button className='cancel'>Cancel</button>
+                <button className='Apply'>Apply now</button>
             </div>
         </form>
     </div>

@@ -731,7 +731,7 @@ button:hover {
     font-size: 32px;
   }
   .potential h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .herohappy {
     margin-bottom: 20px;
@@ -745,6 +745,13 @@ button:hover {
     height: 130vh;
     width: calc(100vw);
   }
+  .program_x_section2 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    width: calc(100vw);
+  }
 
   #Desx {
     display: flex;
@@ -752,5 +759,10 @@ button:hover {
   }
   #mobile {
     display: none;
+  }
+  .position_element {
+    position: absolute;
+    top: 4000px;
+    left: 100px;
   }
 }

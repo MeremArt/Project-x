@@ -5,7 +5,7 @@ import FormInput from "../FormInput/FormInput.jsx";
 import FormSelect from "../FormSelect/FormSelect.jsx";
 import FormTextArea from "../FormTextArea/FormTextArea.jsx";
 import Exclamation from "/images/ExclamationMark.svg";
-
+import FormPutter from "../FormPutter/FormPutter.jsx";
 
 export default function ApplyNowDetails({OffFire}) {
   return (
@@ -112,13 +112,14 @@ export default function ApplyNowDetails({OffFire}) {
              placeholder=" How do you plan to utilise the skills, knowledge, and experiences gained from this project to impact your future and the society at large?"
              className="ef"
             />
-            <FormTextArea
+            {/* <FormTextArea
              type="text"
              title="Reference letter (Limit to 200 words)."
              id="Occupation"
              placeholder="Reference letter (Limit to 200 words)."
              className="gh"
-            />
+            /> */}
+            <FormPutter/>
         </div>
             <div className='divine'>
                 <div className="Exclamationy">
@@ -129,7 +130,7 @@ export default function ApplyNowDetails({OffFire}) {
             </div>
             <div className='back_color'></div>
             <div className="Button_last">
-                <button className='cancel'>Cancel</button>
+                <button className='cancel'onClick={OffFire}>Cancel</button>
                 <button className='Apply'>Apply now</button>
             </div>
         </form>

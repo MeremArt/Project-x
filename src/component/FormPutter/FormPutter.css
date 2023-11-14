@@ -1,0 +1,39 @@
+.FileInputContainer {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    border: 2px dotted #A0A3BD ;
+    background: #F9F9FB;
+    padding: 12px 16px;
+    height: 100px;
+    border-radius: 8px;
+  }
+
+  .File_conton p span{
+    color: #181819;
+    font-size: 16px;
+    font-family: Satoshi;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 22px;
+    word-wrap: break-word
+  }
+  .File_conton p{
+    color: #999CA0;
+    font-size: 16px;
+    font-family: Satoshi;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  
+  .FileIcon {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+  
+  input[type="file"] {
+    display:none;
+  }
+  

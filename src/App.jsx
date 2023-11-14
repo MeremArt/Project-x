@@ -17,13 +17,14 @@ function App() {
     border: "1px solid #fff", // Set the line color, style, and width
     margin: "10px auto", // Center the line horizontally
   };
-  const [toggleModal, setToggleModal] = useState(false);
-  const fire = () => {
+
+  const [toggleModal , setToggleModal]= useState(false);
+  const fire =()=>{
     setToggleModal(true);
-  };
-  const OffFire = () => {
+  }
+  const OffFire =()=>{
     setToggleModal(false);
-  };
+  }
   return (
     <>
       <Navbar links={links} />
@@ -46,7 +47,7 @@ function App() {
               <button onClick={fire}>Apply now!</button>
               <br />
             </center>
-            {toggleModal && <MainApplyNow OffFire={OffFire} />}
+            {toggleModal && <MainApplyNow OffFire ={OffFire } />}
             <br />
             <br />
             <br />

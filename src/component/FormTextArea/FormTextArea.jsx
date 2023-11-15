@@ -16,8 +16,8 @@ export default function FormTextArea({id, placeholder, type, title}) {
                 placeholder={placeholder}
 
             /> */}
-            <textarea type={type}>
-              {placeholder}
+            <textarea type={type} defaultValue={placeholder}>
+              
             </textarea>
 
         </span>

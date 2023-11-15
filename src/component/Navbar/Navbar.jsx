@@ -6,7 +6,7 @@ import Close from "/images/Close.svg";
 import "./Navbar.css";
 import Navmodal from "../NavModal/Navmodal";
 
-const Navbar = ({ links }) => {
+const Navbar = ({ links,fire }) => {
   const [showLinks, setShowLinks] = useState(false);
   const [toggleMenu, setToggleMenu] = useState(false);
   const linksContainerRef = useRef(null);
@@ -35,7 +35,7 @@ const Navbar = ({ links }) => {
           />
           {/* <img src={Close} alt="Close tab or hamburger" /> */}
         </div>
-        {toggleMenu && <Navmodal />}
+        {toggleMenu && <Navmodal setToggleMenu={setToggleMenu}  fire={fire}/>}
       </div>
     </nav>
   );

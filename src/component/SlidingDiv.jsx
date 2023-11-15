@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./SlidingDiv.css"; // Import your CSS
 
-function SlidingDiv() {
+function SlidingDiv({fire}) {
   const [isUp, setIsUp] = useState(true);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function SlidingDiv() {
           </p>
           <br />
           <br />
-          <button id="btn-animation" className="btb">
+          <button id="btn-animation" className="btb" onClick={fire}>
             Apply now
           </button>
           <br />

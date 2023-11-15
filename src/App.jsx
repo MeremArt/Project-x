@@ -18,13 +18,13 @@ function App() {
     margin: "10px auto", // Center the line horizontally
   };
 
-  const [toggleModal , setToggleModal]= useState(false);
-  const fire =()=>{
+  const [toggleModal, setToggleModal] = useState(false);
+  const fire = () => {
     setToggleModal(true);
-  }
-  const OffFire =()=>{
+  };
+  const OffFire = () => {
     setToggleModal(false);
-  }
+  };
   return (
     <>
       <Navbar links={links} />
@@ -47,7 +47,7 @@ function App() {
               <button onClick={fire}>Apply now!</button>
               <br />
             </center>
-            {toggleModal && <MainApplyNow OffFire ={OffFire } />}
+            {toggleModal && <MainApplyNow OffFire={OffFire} />}
             <br />
             <br />
             <br />
@@ -532,12 +532,13 @@ function App() {
               <br />
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-10">
+                  <div className="col-lg-10 col-10">
                     <h2>MAKE AN IMPACT</h2>
                   </div>
-                  <div className="col-lg-2">
+                  <div className="col-lg-2 col-2">
                     <div className="padrocket ">
                       <svg
+                        className="impact_svg"
                         xmlns="http://www.w3.org/2000/svg"
                         width="48"
                         height="48"
@@ -571,16 +572,16 @@ function App() {
               <br />
               <br />
               <div className="container">
-                <div className="row">
-                  <div className="col-lg-10">
+                <div id="impact_iyt" className="row">
+                  <div className="col-lg-10 col-8">
                     <h1>BE An agent of change</h1>
                     <p>
                       Volunteer to mentor community members in different areas
                       of discipline
                     </p>
                   </div>
-                  <div className="col-lg-2">
-                    <button>Apply now</button>
+                  <div className="col-lg-2 col-4">
+                    <button className="impact_btn">Join the team</button>
                   </div>
                 </div>
               </div>
@@ -617,13 +618,15 @@ function App() {
           <br />
           <div className="container">
             <div className="row">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-4">
                 <h2>Email address</h2>
                 <p>Projectx@gmail.com</p>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-4">
                 <center>
                   <svg
+                    className=""
+                    id="svg_foot"
                     xmlns="http://www.w3.org/2000/svg"
                     width="42"
                     height="40"
@@ -637,7 +640,7 @@ function App() {
                   </svg>
                 </center>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-4">
                 <h1>
                   ©Projectx.com 2023 LLC <br />
                   <br /> All rights reserved

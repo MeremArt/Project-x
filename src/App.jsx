@@ -24,13 +24,12 @@ function App() {
 
     const modalElement = document.getElementById('yourModalId'); 
     if (modalElement) {
-      modalElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      modalElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
   const OffFire = () => {
     setToggleModal(false);
   };
-
 
   return (
     <>
@@ -176,9 +175,29 @@ function App() {
           <br />
           <br />
           <br />
+          <div id="mobile_take" className="container">
+            <div>
+              <h2>
+                Take charge & change! <br /> Join the community
+              </h2>
+              <div className="col-lg-4 col-md-4">
+                <button id="move-btn">Apply now</button>
+              </div>
+            </div>
+          </div>
+          <div id="mobile_become" className="container">
+            <div>
+              <h2>
+                Take charge & change! <br /> Join the community
+              </h2>
+              <div className="col-lg-4 col-md-4">
+                <button id="move-btn">Apply now</button>
+              </div>
+            </div>
+          </div>
           <div className="program_x_section">
             <div className="position_element">
-              <div className="container">
+              <div id="hide_mobile" className="container">
                 <div className="row">
                   <div className="col-lg-8 col-md-8">
                     <h2>
@@ -186,7 +205,9 @@ function App() {
                     </h2>
                   </div>
                   <div className="col-lg-4 col-md-4">
-                    <button id="move-btn" onClick={fire}>Apply now</button>
+                    <button id="move-btn" onClick={fire}>
+                      Apply now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -197,7 +218,7 @@ function App() {
           <br />
           <div className="program_x_section2">
             <div className="position_element">
-              <div className="container">
+              <div id="hide_mobile" className="container">
                 <div className="row">
                   <div className="col-lg-8 col-md-8">
                     <h2>
@@ -205,7 +226,9 @@ function App() {
                     </h2>
                   </div>
                   <div className="col-lg-4 col-md-4">
-                    <button id="move-btn" onClick={fire}>Apply now</button>
+                    <button id="move-btn" onClick={fire}>
+                      Apply now
+                    </button>
                   </div>
                 </div>
               </div>

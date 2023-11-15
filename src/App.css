@@ -782,7 +782,7 @@ button:hover {
     font-size: 16px;
   }
   .masterclass2 {
-    height: 24vh;
+    height: 28vh;
   }
   .provolunter p {
     font-size: 16px;
@@ -791,13 +791,13 @@ button:hover {
     font-size: 16px;
   }
   .masterclass1 {
-    height: 24vh;
+    height: 28vh;
   }
   .masterclass3 {
-    height: 24vh;
+    height: 28vh;
   }
   .volunter {
-    height: 24vh;
+    height: 29vh;
   }
   .footer h2 {
     font-size: 12px;
@@ -834,6 +834,7 @@ button:hover {
     padding-left: 0px;
   }
   .impact_btn {
+    margin-left: 9px;
     padding: 6px 4px;
     font-size: 9px;
     background: #070707;

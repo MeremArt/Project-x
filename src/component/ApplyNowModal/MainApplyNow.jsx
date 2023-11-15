@@ -7,7 +7,7 @@ export default function MainApplyNow({OffFire }) {
     const [changeEvent , setChangeEVent ] = useState('ApplyNow')
   return (
     <main className='Main'>
-      {changeEvent ?
+      {!changeEvent ?
       (
       <ApplyNowDetails setChangeEVent={setChangeEVent} OffFire={OffFire}/>
       )

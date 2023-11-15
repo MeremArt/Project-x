@@ -22,7 +22,7 @@ function App() {
   const fire = () => {
     setToggleModal(true);
 
-    const modalElement = document.getElementById("yourModalId");
+    const modalElement = document.getElementById('yourModalId'); 
     if (modalElement) {
       modalElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      <Navbar links={links} />
+      <Navbar links={links} fire={fire} />
 
       <main className="projectwhite">
         <section className="heroproject">
@@ -66,7 +66,7 @@ function App() {
             <div className="col-sm-6">
               <div className="slide-it">
                 <ReverseSlide />
-                <SlidingDiv />
+                <SlidingDiv fire={fire} />
               </div>
             </div>
             <div className="col-sm-6">
@@ -87,7 +87,7 @@ function App() {
 
             <div className="col-lg-2 col-md-2 ">
               <div className="slide-it">
-                <SlidingDiv />
+                <SlidingDiv  fire={fire}/>
               </div>
             </div>
 

@@ -16,7 +16,7 @@ export default function FormSelect({
     return (
       <div className="FormSelect_container">
       <label htmlFor={namen}>{title}</label>
-      <select name={namen} id={namen}>
+      <select name={namen} id={namen} >
         <option value="" disabled selected>
           {placeholder || secondTitle}
         </option>

@@ -649,7 +649,7 @@ button:hover {
 
 @media (max-width: 320px) {
   .position_element {
-    top: 120px;
+    top: 330px;
     left: 92px;
   }
   .col-lg-8 h2 {

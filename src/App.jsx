@@ -21,16 +21,15 @@ function App() {
   const [toggleModal, setToggleModal] = useState(false);
   const fire = () => {
     setToggleModal(true);
-    
-    const modalElement = document.getElementById('yourModalId'); 
+
+    const modalElement = document.getElementById("yourModalId");
     if (modalElement) {
-      modalElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      modalElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
   const OffFire = () => {
     setToggleModal(false);
   };
-
 
   return (
     <>
@@ -186,6 +185,16 @@ function App() {
               </div>
             </div>
           </div>
+          <div id="mobile_become" className="container">
+            <div>
+              <h2>
+                Take charge & change! <br /> Join the community
+              </h2>
+              <div className="col-lg-4 col-md-4">
+                <button id="move-btn">Apply now</button>
+              </div>
+            </div>
+          </div>
           <div className="program_x_section">
             <div className="position_element">
               <div id="hide_mobile" className="container">
@@ -196,7 +205,9 @@ function App() {
                     </h2>
                   </div>
                   <div className="col-lg-4 col-md-4">
-                    <button id="move-btn" onClick={fire}>Apply now</button>
+                    <button id="move-btn" onClick={fire}>
+                      Apply now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -215,7 +226,9 @@ function App() {
                     </h2>
                   </div>
                   <div className="col-lg-4 col-md-4">
-                    <button id="move-btn" onClick={fire}>Apply now</button>
+                    <button id="move-btn" onClick={fire}>
+                      Apply now
+                    </button>
                   </div>
                 </div>
               </div>

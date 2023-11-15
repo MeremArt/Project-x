@@ -194,6 +194,9 @@
 #mobile_take {
   display: none;
 }
+#mobile_become {
+  display: none;
+}
 button {
   border-radius: 100px !important;
   border: 0.706px solid var(--grayscale-off-white, #fcfcfc);
@@ -916,6 +919,7 @@ button:hover {
     height: 130vh;
     width: calc(100vw);
     margin-top: 59px;
+    margin-bottom: 69px;
   }
 
   #Desx {
@@ -1044,7 +1048,7 @@ button:hover {
     color: var(--grayscale-off-white, #fcfcfc);
     text-align: center;
     font-family: Clash Display;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1060,5 +1064,24 @@ button:hover {
     /* align-items: center; */
     /* justify-content: center; */
     /* margin-left: -11px; */
+  }
+  #mobile_become {
+    justify-content: center;
+    display: flex;
+    top: 4687px;
+
+    align-items: center;
+    margin: auto;
+    position: absolute;
+  }
+  #mobile_become h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
   }
 }

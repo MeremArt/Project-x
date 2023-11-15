@@ -6,8 +6,8 @@ import "./Main.css"
 export default function MainApplyNow({OffFire }) {
     const [changeEvent , setChangeEVent ] = useState('ApplyNow')
   return (
-    <main className='Main'>
-      {!changeEvent ?
+    <main className='Main'  id="yourModalId" >
+      {changeEvent ?
       (
       <ApplyNowDetails setChangeEVent={setChangeEVent} OffFire={OffFire}/>
       )

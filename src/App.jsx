@@ -21,10 +21,17 @@ function App() {
   const [toggleModal, setToggleModal] = useState(false);
   const fire = () => {
     setToggleModal(true);
+    
+    const modalElement = document.getElementById('yourModalId'); 
+    if (modalElement) {
+      modalElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   };
   const OffFire = () => {
     setToggleModal(false);
   };
+
+
   return (
     <>
       <Navbar links={links} />
@@ -179,7 +186,7 @@ function App() {
                     </h2>
                   </div>
                   <div className="col-lg-4 col-md-4">
-                    <button id="move-btn">Apply now</button>
+                    <button id="move-btn" onClick={fire}>Apply now</button>
                   </div>
                 </div>
               </div>
@@ -198,7 +205,7 @@ function App() {
                     </h2>
                   </div>
                   <div className="col-lg-4 col-md-4">
-                    <button id="move-btn">Apply now</button>
+                    <button id="move-btn" onClick={fire}>Apply now</button>
                   </div>
                 </div>
               </div>
@@ -304,7 +311,7 @@ function App() {
                     </p>
                   </div>
                   <div className="col-lg-2">
-                    <button>Apply now</button>
+                    <button onClick={fire}>Apply now</button>
                   </div>
                 </div>
               </div>
@@ -464,7 +471,7 @@ function App() {
                   </p>
                 </div>
                 <div className="col-lg-2">
-                  <button>Apply now</button>
+                  <button onClick={fire}>Apply now</button>
                 </div>
               </div>
             </div>
@@ -603,7 +610,7 @@ function App() {
               <p>We train and mentor you to your full potential</p>
               <br />
               <br />
-              <button>Apply now</button>
+              <button onClick={fire}>Apply now</button>
               <br />
               <br />
               <br />

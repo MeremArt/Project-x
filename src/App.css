@@ -191,7 +191,9 @@
   letter-spacing: 0.16px;
   padding-left: 20px;
 }
-
+#mobile_take {
+  display: none;
+}
 button {
   border-radius: 100px !important;
   border: 0.706px solid var(--grayscale-off-white, #fcfcfc);
@@ -913,6 +915,7 @@ button:hover {
     background-repeat: no-repeat;
     height: 130vh;
     width: calc(100vw);
+    margin-top: 59px;
   }
 
   #Desx {
@@ -1027,5 +1030,35 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     display: flex;
+  }
+  #mobile_take {
+    justify-content: center;
+    display: flex;
+    top: 3790px;
+
+    align-items: center;
+    margin: auto;
+    position: absolute;
+  }
+  #mobile_take h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+  #hide_mobile {
+    display: none;
+  }
+  #move-btn {
+    font-size: 11px;
+    padding: 8px 26px;
+    margin: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-left: -11px; */
   }
 }

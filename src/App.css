@@ -256,7 +256,81 @@ button:hover {
   letter-spacing: 0.1px;
   align-self: stretch;
 }
+.secondmaster {
+  border: 1.5px solid #070707;
+  background: #5eb857;
+}
+.secondmaster h2 {
+  color: #070707;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
 
+.secondmaster h1 {
+  color: #14142b;
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.secondmaster p {
+  color: var(--grayscale-ash, #262338);
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  align-self: stretch;
+}
+.thirdmaster {
+  border: 1.5px solid #f1f5f5;
+  background: #dd4c72;
+}
+.thirdmaster h2 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.thirdmaster h1 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.thirdmaster p {
+  color: #f1f5f5;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  align-self: stretch;
+}
+
+.masterclass3 {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698541244/Bg_2_m0ckri.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
 .masterclass1 {
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698540056/Bg_spy94l.png");
   background-size: cover; /* Scale the background image to cover the entire element */
@@ -264,101 +338,64 @@ button:hover {
   height: 100vh;
   width: 100%;
 }
-@media (max-width: 1024px) {
-  .masterclass1 {
-    background-size: contain;
-    background-position: center center;
-    height: 50vh;
-  }
+.forthmaster {
+  border: 1.5px solid #f1f5f5;
+  background: #8858f5;
 }
-@media (max-width: 768px) {
-  .masterclass1 {
-    background-size: contain;
-    background-position: center center;
-    height: 55vh;
-    /* width:100vh; */
-  }
+.forthmaster h2 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
 }
-@media (max-width: 425px) {
-  .masterclass1 {
-    background-size: contain;
-    background-position: center center;
-    height: 40vh;
-  }
+.forthmaster p {
+  color: #f1f5f5;
+  font-family: Satoshi;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  align-self: stretch;
 }
-@media (max-width: 375px) {
-  .masterclass1 {
-    background-size: contain;
-    background-position: center center;
-    height: 35vh;
-  }
+.forthmaster h1 {
+  color: #f1f5f5;
+  font-family: Clash Display;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
 }
-.masterclass2 {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698540711/Bg_1_qezbw4.png");
+.cohort p {
+  color: var(--grayscale-body, #4e4b66);
+  text-align: center;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+}
+
+.volunter {
+  background-image: url(" https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698543000/volunter_afr9rh.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.masterclass3 {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698541244/Bg_2_m0ckri.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
   height: 90vh;
   width: 100%;
 }
-@media (max-width: 1024px) {
-  .masterclass2 {
-    background-size: contain;
-    background-position: center center;
-    height: 50vh;
-  }
-}
-@media (max-width: 768px) {
-  .masterclass2 {
-    background-size: contain;
-    background-position: center center;
-    height: 55vh;
-  }
-}
-
-@media (max-width: 1024px) {
-  .masterclass3 {
-    background-size: contain;
-    background-position: center center;
-    height: 50vh;
-  }
-}
-@media (max-width: 768px) {
-  .masterclass3 {
-    background-size: contain;
-    background-position: center center;
-    height: 55vh;
-  }
-}
-@media (max-width: 425px) {
-  .masterclass3 {
-    background-size: contain;
-    background-position: center center;
-    height: 40vh;
-  }
-}
-
-@media (max-width: 1024px) {
-  .volunter {
-    background-size: contain;
-    background-position: center center;
-    height: 50vh;
-  }
-}
-@media (max-width: 768px) {
-  .volunter {
-    background-size: contain;
-    background-position: center center;
-    height: 55vh;
-  }
-}
-@media (max-width: 425px) {
-  .volunter {
-    background-size: contain;
-    background-position: center center;
-    height: 40vh;
-  }
-}
-
 .provolunter p {
   color: var(--grayscale-body, #4e4b66);
   text-align: center;
@@ -457,6 +494,101 @@ button:hover {
   letter-spacing: 0.16px;
   text-transform: uppercase;
 }
+.masterclass2 {
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698540711/Bg_1_qezbw4.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .masterclass3 {
+    background-size: contain;
+    background-position: center center;
+    height: 50vh;
+  }
+}
+@media (max-width: 1024px) {
+  .masterclass1 {
+    background-size: contain;
+    background-position: center center;
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .masterclass1 {
+    background-size: contain;
+    background-position: center center;
+    height: 55vh;
+    /* width:100vh; */
+  }
+}
+@media (max-width: 425px) {
+  .masterclass1 {
+    background-size: contain;
+    background-position: center center;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .masterclass2 {
+    background-size: contain;
+    background-position: center center;
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .masterclass2 {
+    background-size: contain;
+    background-position: center center;
+    height: 55vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .masterclass3 {
+    background-size: contain;
+    background-position: center center;
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .masterclass3 {
+    background-size: contain;
+    background-position: center center;
+    height: 55vh;
+  }
+}
+@media (max-width: 425px) {
+  .masterclass3 {
+    background-size: contain;
+    background-position: center center;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .volunter {
+    background-size: contain;
+    background-position: center center;
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .volunter {
+    background-size: contain;
+    background-position: center center;
+    height: 55vh;
+  }
+}
+@media (max-width: 425px) {
+  .volunter {
+    background-size: contain;
+    background-position: center center;
+    height: 40vh;
+  }
+}
 
 /* CSS for tablet (landscape) */
 @media (max-width: 1024px) {
@@ -495,241 +627,6 @@ button:hover {
   }
 }
 
-@media (max-width: 375px) {
-  /* .volunter {
-    background-size: contain;
-    background-position: center center;
-    height: 35vh;
-  } */
-  .slide-it {
-    display: flex;
-    justify-content: center;
-    overflow-y: hidden;
-    flex-direction: row;
-  }
-
-  .herohappy {
-    margin-bottom: 20px;
-    height: 260px;
-    width: 100%;
-  }
-  #Desx {
-    display: flex;
-    height: fit-content;
-  }
-  #mobile {
-    display: none;
-  }
-  .heroproject h2 {
-    font-size: 30px;
-  }
-  .heroproject p {
-    font-size: 16px;
-  }
-  .slide-it {
-    display: flex;
-    justify-content: center;
-    overflow-y: hidden;
-    flex-direction: row;
-  }
-  .aboutproject h2 {
-    font-size: 28px;
-  }
-  .aboutp {
-    font-size: 16px;
-  }
-  .propil {
-    font-size: 32px;
-  }
-  .potential h2 {
-    font-size: 22px;
-  }
-  .herohappy {
-    margin-bottom: 20px;
-    height: 279px;
-    width: 100%;
-  }
-  .program_x_section {
-    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699996121/Frame_1000004032_ykhj2b.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 154vh;
-    width: calc(100vw);
-  }
-  .program_x_section2 {
-    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 154vh;
-    width: calc(100vw);
-    margin-top: 59px;
-    margin-bottom: 69px;
-  }
-
-  #Desx {
-    display: flex;
-    height: fit-content;
-  }
-  #mobile {
-    display: none;
-  }
-
-  .firstmaster h2 {
-    font-size: 22px;
-  }
-  .firstmaster h1 {
-    font-size: 18px;
-  }
-  .firstmaster p {
-    font-size: 16px;
-  }
-  .secondmaster h2 {
-    font-size: 22px;
-  }
-  .secondmaster h1 {
-    font-size: 18px;
-  }
-  .secondmaster p {
-    font-size: 16px;
-  }
-  .thirdmaster h2 {
-    font-size: 22px;
-  }
-  .thirdmaster h1 {
-    font-size: 18px;
-  }
-  .thirdmaster p {
-    font-size: 16px;
-  }
-  .forthmaster h2 {
-    font-size: 22px;
-  }
-  .forthmaster h1 {
-    font-size: 18px;
-  }
-  .forthmaster p {
-    font-size: 16px;
-  }
-  .cohort p {
-    font-size: 16px;
-  }
-  .masterclass2 {
-    height: 28vh;
-  }
-  .provolunter p {
-    font-size: 16px;
-  }
-  .potential p {
-    font-size: 16px;
-  }
-  .masterclass1 {
-    height: 28vh;
-  }
-  .masterclass3 {
-    height: 28vh;
-  }
-  .volunter {
-    height: 29vh;
-  }
-  .footer h2 {
-    font-size: 12px;
-  }
-  .footer p {
-    font-size: 8px;
-  }
-  .footer h1 {
-    font-size: 8px;
-  }
-  #svg_foot {
-    width: 25px;
-    height: 25px;
-  }
-  .Impact p {
-    font-size: 16px;
-  }
-  .Impact h2 {
-    font-size: 15px;
-  }
-  .Impact h1 {
-    font-size: 11px;
-    text-align: center;
-  }
-  .Impact p {
-    font-size: 10px;
-    text-align: center;
-  }
-  .impact_svg {
-    width: 25px;
-    height: 25px;
-  }
-  .padrocket {
-    padding-left: 0px;
-  }
-  .impact_btn {
-    margin-left: 9px;
-    padding: 6px 4px;
-    font-size: 9px;
-    background: #070707;
-    color: #fff;
-  }
-  .impact_btn:hover {
-  }
-  #impact_iyt {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-  }
-  #mobile_take {
-    justify-content: center;
-    display: flex;
-    top: 3869px;
-
-    align-items: center;
-    margin: auto;
-    position: absolute;
-  }
-  #mobile_take h2 {
-    color: var(--grayscale-off-white, #fcfcfc);
-    text-align: center;
-    font-family: Clash Display;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.12px;
-  }
-  #hide_mobile {
-    display: none;
-  }
-  #move-btn {
-    font-size: 11px;
-    padding: 8px 26px;
-    margin: auto;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* margin-left: -11px; */
-  }
-  #mobile_become {
-    justify-content: center;
-    display: flex;
-    top: 4630px;
-
-    align-items: center;
-    margin: auto;
-    position: absolute;
-  }
-  #mobile_become h2 {
-    color: var(--grayscale-off-white, #fcfcfc);
-    text-align: center;
-    font-family: Clash Display;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.12px;
-  }
-}
 @media (max-width: 475px) {
   .slide-it {
     display: flex;
@@ -819,7 +716,7 @@ button:hover {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 761px;
+    height: 127vh;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 69px;
@@ -1011,5 +908,239 @@ button:hover {
     display: none;
   }
 }
-@media (max-width: 425px) {
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media (min-width: 375px) and (max-width: 414px) {
+  .slide-it {
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    flex-direction: row;
+  }
+  .masterclass1 {
+    background-size: contain;
+    background-position: center center;
+    height: 35vh;
+  }
+  .herohappy {
+    margin-bottom: 20px;
+    height: 260px;
+    width: 100%;
+  }
+  #Desx {
+    display: flex;
+    height: fit-content;
+  }
+  #mobile {
+    display: none;
+  }
+  .heroproject h2 {
+    font-size: 30px;
+  }
+  .heroproject p {
+    font-size: 16px;
+  }
+  .slide-it {
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    flex-direction: row;
+  }
+  .aboutproject h2 {
+    font-size: 28px;
+  }
+  .aboutp {
+    font-size: 16px;
+  }
+  .propil {
+    font-size: 32px;
+  }
+  .potential h2 {
+    font-size: 22px;
+  }
+  .herohappy {
+    margin-bottom: 20px;
+    height: 279px;
+    width: 100%;
+  }
+  .program_x_section {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699996121/Frame_1000004032_ykhj2b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(133vh);
+    width: calc(100vw);
+  }
+  .program_x_section2 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(133vh);
+    width: calc(100vw);
+    margin-top: 59px;
+    margin-bottom: 69px;
+  }
+
+  #Desx {
+    display: flex;
+    height: fit-content;
+  }
+  #mobile {
+    display: none;
+  }
+
+  .firstmaster h2 {
+    font-size: 22px;
+  }
+  .firstmaster h1 {
+    font-size: 18px;
+  }
+  .firstmaster p {
+    font-size: 16px;
+  }
+  .secondmaster h2 {
+    font-size: 22px;
+  }
+  .secondmaster h1 {
+    font-size: 18px;
+  }
+  .secondmaster p {
+    font-size: 16px;
+  }
+  .thirdmaster h2 {
+    font-size: 22px;
+  }
+  .thirdmaster h1 {
+    font-size: 18px;
+  }
+  .thirdmaster p {
+    font-size: 16px;
+  }
+  .forthmaster h2 {
+    font-size: 22px;
+  }
+  .forthmaster h1 {
+    font-size: 18px;
+  }
+  .forthmaster p {
+    font-size: 16px;
+  }
+  .cohort p {
+    font-size: 16px;
+  }
+  .masterclass2 {
+    height: 28vh;
+  }
+  .provolunter p {
+    font-size: 16px;
+  }
+  .potential p {
+    font-size: 16px;
+  }
+  .masterclass1 {
+    height: 28vh;
+  }
+  .masterclass3 {
+    height: 28vh;
+  }
+  .volunter {
+    height: 29vh;
+  }
+  .footer h2 {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 8px;
+  }
+  .footer h1 {
+    font-size: 8px;
+  }
+  #svg_foot {
+    width: 25px;
+    height: 25px;
+  }
+  .Impact p {
+    font-size: 16px;
+  }
+  .Impact h2 {
+    font-size: 15px;
+  }
+  .Impact h1 {
+    font-size: 11px;
+    text-align: center;
+  }
+  .Impact p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .impact_svg {
+    width: 25px;
+    height: 25px;
+  }
+  .padrocket {
+    padding-left: 0px;
+  }
+  .impact_btn {
+    margin-left: 9px;
+    padding: 6px 4px;
+    font-size: 9px;
+    background: #070707;
+    color: #fff;
+  }
+  .impact_btn:hover {
+  }
+  #impact_iyt {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+  #mobile_take {
+    justify-content: center;
+    display: flex;
+    top: 3858px;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+  }
+  #mobile_take h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+  #hide_mobile {
+    display: none;
+  }
+  #move-btn {
+    font-size: 11px;
+    padding: 8px 26px;
+    margin: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-left: -11px; */
+  }
+  #mobile_become {
+    justify-content: center;
+    display: flex;
+    top: 4864px;
+
+    align-items: center;
+    margin: auto;
+    position: absolute;
+  }
+  #mobile_become h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
 }

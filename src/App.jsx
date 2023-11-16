@@ -22,7 +22,7 @@ function App() {
   const fire = () => {
     setToggleModal(true);
 
-    const modalElement = document.getElementById('yourModalId'); 
+    const modalElement = document.getElementById("yourModalId");
     if (modalElement) {
       modalElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -87,7 +87,7 @@ function App() {
 
             <div className="col-lg-2 col-md-2 ">
               <div className="slide-it">
-                <SlidingDiv  fire={fire}/>
+                <SlidingDiv fire={fire} />
               </div>
             </div>
 
@@ -565,7 +565,7 @@ function App() {
                   <div className="col-lg-10 col-10">
                     <h2>MAKE AN IMPACT</h2>
                   </div>
-                  <div className="col-lg-2 col-2">
+                  <div className="col-lg-2 col-md-2 col-2">
                     <div className="padrocket ">
                       <svg
                         className="impact_svg"
@@ -603,14 +603,14 @@ function App() {
               <br />
               <div className="container">
                 <div id="impact_iyt" className="row">
-                  <div className="col-lg-10 col-8">
+                  <div className="col-lg-10 col-md-10 col-8">
                     <h1>BE An agent of change</h1>
                     <p>
                       Volunteer to mentor community members in different areas
                       of discipline
                     </p>
                   </div>
-                  <div className="col-lg-2 col-4">
+                  <div className="col-lg-2 col-md-2 col-4">
                     <button className="impact_btn">Join the team</button>
                   </div>
                 </div>

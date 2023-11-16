@@ -315,95 +315,6 @@ button:hover {
   }
 }
 
-@media (max-width: 425px) {
-  .masterclass2 {
-    background-size: contain;
-    background-position: center center;
-    height: 40vh;
-  }
-}
-@media (max-width: 375px) {
-  .masterclass2 {
-    background-size: contain;
-    background-position: center center;
-    height: 35vh;
-  }
-}
-.secondmaster {
-  border: 1.5px solid #070707;
-  background: #5eb857;
-}
-.secondmaster h2 {
-  color: #070707;
-  font-family: Clash Display;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.24px;
-}
-
-.secondmaster h1 {
-  color: #14142b;
-  font-family: Clash Display;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  text-transform: uppercase;
-}
-.secondmaster p {
-  color: var(--grayscale-ash, #262338);
-  font-family: Satoshi;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.1px;
-  align-self: stretch;
-}
-.thirdmaster {
-  border: 1.5px solid #f1f5f5;
-  background: #dd4c72;
-}
-.thirdmaster h2 {
-  color: #f1f5f5;
-  font-family: Clash Display;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.24px;
-}
-.thirdmaster h1 {
-  color: #f1f5f5;
-  font-family: Clash Display;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  text-transform: uppercase;
-}
-.thirdmaster p {
-  color: #f1f5f5;
-  font-family: Satoshi;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.1px;
-  align-self: stretch;
-}
-
-.masterclass3 {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698541244/Bg_2_m0ckri.png");
-  background-size: cover; /* Scale the background image to cover the entire element */
-  background-repeat: no-repeat;
-  height: 90vh;
-  width: 100%;
-}
 @media (max-width: 1024px) {
   .masterclass3 {
     background-size: contain;
@@ -425,64 +336,7 @@ button:hover {
     height: 40vh;
   }
 }
-@media (max-width: 375px) {
-  .masterclass3 {
-    background-size: contain;
-    background-position: center center;
-    height: 35vh;
-  }
-}
-.forthmaster {
-  border: 1.5px solid #f1f5f5;
-  background: #8858f5;
-}
-.forthmaster h2 {
-  color: #f1f5f5;
-  font-family: Clash Display;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.24px;
-}
-.forthmaster p {
-  color: #f1f5f5;
-  font-family: Satoshi;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.1px;
-  align-self: stretch;
-}
-.forthmaster h1 {
-  color: #f1f5f5;
-  font-family: Clash Display;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  text-transform: uppercase;
-}
-.cohort p {
-  color: var(--grayscale-body, #4e4b66);
-  text-align: center;
-  font-family: Satoshi;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.12px;
-}
 
-.volunter {
-  background-image: url(" https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698543000/volunter_afr9rh.png");
-  background-size: cover; /* Scale the background image to cover the entire element */
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-}
 @media (max-width: 1024px) {
   .volunter {
     background-size: contain;
@@ -504,13 +358,7 @@ button:hover {
     height: 40vh;
   }
 }
-@media (max-width: 375px) {
-  .volunter {
-    background-size: contain;
-    background-position: center center;
-    height: 35vh;
-  }
-}
+
 .provolunter p {
   color: var(--grayscale-body, #4e4b66);
   text-align: center;
@@ -648,6 +496,11 @@ button:hover {
 }
 
 @media (max-width: 375px) {
+  /* .volunter {
+    background-size: contain;
+    background-position: center center;
+    height: 35vh;
+  } */
   .slide-it {
     display: flex;
     justify-content: center;
@@ -959,14 +812,14 @@ button:hover {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699996121/Frame_1000004032_ykhj2b.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 127vh;
+    height: 761px;
     width: calc(100vw);
   }
   .program_x_section2 {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 127vh;
+    height: 761px;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 69px;

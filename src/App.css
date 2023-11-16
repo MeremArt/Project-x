@@ -634,6 +634,7 @@ button:hover {
   .position_element {
     top: 351px;
     left: 59px;
+  
   }
   .col-lg-8 h2 {
     font-size: 24px;
@@ -649,8 +650,9 @@ button:hover {
 
 @media (max-width: 320px) {
   .position_element {
-    top: 330px;
-    left: 92px;
+    /* top: 130px;
+    left: 92px; */
+    display: none;
   }
   .col-lg-8 h2 {
     font-size: 12px;
@@ -857,7 +859,7 @@ button:hover {
   }
   #mobile_take {
     justify-content: center;
-    display: flex;
+    display:flex;
     top: 3869px;
 
     align-items: center;
@@ -1189,14 +1191,14 @@ button:hover {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699996121/Frame_1000004032_ykhj2b.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 134vh;
-    width: calc(100vw);
+    height: 160vh;
+    width: calc(99vw);
   }
   .program_x_section2 {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 134vh;
+    height: 162vh;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 69px;
@@ -1386,4 +1388,13 @@ button:hover {
   #mobile {
     display: none;
   }
+}
+@media (max-width: 425px){}
+#mobile_take {
+    justify-content: center;
+    display: none;
+    top: 3922px;
+    align-items: center;
+    margin: auto;
+    position: absolute;
 }

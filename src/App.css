@@ -911,7 +911,7 @@ button:hover {
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
-@media (min-width: 375px) and (max-width: 414px) {
+@media (min-width: 375px) and (max-width: 390px) {
   .slide-it {
     display: flex;
     justify-content: center;
@@ -1142,5 +1142,88 @@ button:hover {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.12px;
+  }
+}
+@media (min-width: 390px) and (max-width: 414px) {
+  .program_x_section {
+    height: calc(109vh);
+  }
+  .program_x_section2 {
+    height: calc(109vh);
+  }
+  #mobile_take {
+    top: 4055px;
+  }
+  #mobile_become {
+    top: 5098px;
+  }
+}
+@media (min-width: 414px) and (max-width: 430px) {
+  .program_x_section {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699996121/Frame_1000004032_ykhj2b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(109vh);
+    width: calc(100vw);
+  }
+  .heroproject h2 {
+    font-size: 30px;
+  }
+  .program_x_section2 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(109vh);
+    width: calc(100vw);
+    margin-top: 59px;
+    margin-bottom: 69px;
+  }
+  #mobile_become {
+    justify-content: center;
+    display: flex;
+    top: 5822px;
+
+    align-items: center;
+    margin: auto;
+    position: absolute;
+  }
+  #mobile_take {
+    justify-content: center;
+    display: flex;
+    top: 4730px;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+  }
+  #mobile_become h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+  #mobile_take h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+  #move-btn {
+    font-size: 11px;
+    padding: 8px 26px;
+    margin: auto;
+  }
+  #hide_mobile {
+    display: none;
+  }
+  #mobile {
+    display: none;
   }
 }

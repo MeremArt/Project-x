@@ -981,6 +981,15 @@ button:hover {
     margin-bottom: 69px;
   }
 
+  .program_x_section3 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700159225/Frame_1000004035_e23ne0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(120vh);
+    width: calc(100vw);
+    margin-top: 20px;
+    margin-bottom: 69px;
+  }
   #Desx {
     display: flex;
     height: fit-content;
@@ -1081,7 +1090,7 @@ button:hover {
     padding-left: 0px;
   }
   .impact_btn {
-    margin-left: 25px;
+    margin-left: 19px;
     padding: 6px 4px;
     font-size: 9px;
     background: #070707;
@@ -1173,6 +1182,15 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(109vh);
+    width: calc(100vw);
+    margin-top: 59px;
+    margin-bottom: 69px;
+  }
+  .program_x_section3 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700159225/Frame_1000004035_e23ne0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(120vh);
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 69px;

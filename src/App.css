@@ -968,14 +968,14 @@ button:hover {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699996121/Frame_1000004032_ykhj2b.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(133vh);
+    height: calc(120vh);
     width: calc(100vw);
   }
   .program_x_section2 {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(133vh);
+    height: calc(120vh);
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 69px;
@@ -1098,7 +1098,7 @@ button:hover {
   #mobile_take {
     justify-content: center;
     display: flex;
-    top: 2090px;
+    top: 2120px;
     align-items: center;
     margin: auto;
     position: relative;
@@ -1127,7 +1127,7 @@ button:hover {
   #mobile_become {
     justify-content: center;
     display: flex;
-    top: 998px;
+    top: 1005px;
     align-items: center;
     margin: auto;
     position: relative;

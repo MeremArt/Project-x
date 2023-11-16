@@ -1098,10 +1098,10 @@ button:hover {
   #mobile_take {
     justify-content: center;
     display: flex;
-    top: 3858px;
+    top: 2090px;
     align-items: center;
     margin: auto;
-    position: absolute;
+    position: relative;
   }
   #mobile_take h2 {
     color: var(--grayscale-off-white, #fcfcfc);
@@ -1127,11 +1127,10 @@ button:hover {
   #mobile_become {
     justify-content: center;
     display: flex;
-    top: 4864px;
-
+    top: 998px;
     align-items: center;
     margin: auto;
-    position: absolute;
+    position: relative;
   }
   #mobile_become h2 {
     color: var(--grayscale-off-white, #fcfcfc);

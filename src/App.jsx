@@ -185,16 +185,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div id="mobile_become" className="container">
-            <div>
-              <h2>
-                Take charge & change! <br /> Join the community
-              </h2>
-              <div className="col-lg-4 col-md-4">
-                <button id="move-btn">Apply now</button>
-              </div>
-            </div>
-          </div>
+
           <div className="program_x_section">
             <div className="position_element">
               <div id="hide_mobile" className="container">
@@ -238,6 +229,20 @@ function App() {
           <br />
           <div className="program_x_section3">
             <div className="position_element"></div>
+          </div>
+
+          <div className="program_x_section4">
+            <div className="position_element"></div>
+          </div>
+          <div id="mobile_become" className="container">
+            <div>
+              <h2>
+                Take charge & change! <br /> Join the community
+              </h2>
+              <div className="col-lg-4 col-md-4">
+                <button id="move-btn">Apply now</button>
+              </div>
+            </div>
           </div>
         </section>
         <br />

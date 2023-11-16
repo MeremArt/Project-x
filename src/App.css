@@ -965,14 +965,14 @@ button:hover {
     width: 100%;
   }
   .program_x_section {
-    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699996121/Frame_1000004032_ykhj2b.png);
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700161385/Frame_1000004032_1_if4bnh.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(120vh);
     width: calc(100vw);
   }
   .program_x_section2 {
-    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700161249/Frame_1000004033_1_penzfv.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(120vh);
@@ -982,7 +982,16 @@ button:hover {
   }
 
   .program_x_section3 {
-    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700159225/Frame_1000004035_e23ne0.png);
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700160976/Frame_1000004035_1_onx8a3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(120vh);
+    width: calc(100vw);
+    margin-top: 20px;
+    margin-bottom: 69px;
+  }
+  .program_x_section4 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700160701/Frame_1000004036_tsenxt.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(120vh);
@@ -1107,7 +1116,7 @@ button:hover {
   #mobile_take {
     justify-content: center;
     display: flex;
-    top: 2120px;
+    top: 2050px;
     align-items: center;
     margin: auto;
     position: relative;
@@ -1136,7 +1145,7 @@ button:hover {
   #mobile_become {
     justify-content: center;
     display: flex;
-    top: 1005px;
+    bottom: 35px;
     align-items: center;
     margin: auto;
     position: relative;

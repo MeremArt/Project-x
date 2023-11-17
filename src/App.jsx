@@ -295,6 +295,7 @@ function App() {
                   <div className="col-lg-2 col-2">
                     <div className="padrocket">
                       <svg
+                        id="svg_foot"
                         xmlns="http://www.w3.org/2000/svg"
                         width="68"
                         height="68"
@@ -334,7 +335,7 @@ function App() {
               <br />
               <br />
               <div className="container">
-                <div className="row">
+                <div id="impact_iyt" className="row">
                   <div className="col-lg-10 col-10">
                     <p>
                       Become a prodigy for <strong>$5,000</strong> or check
@@ -342,7 +343,9 @@ function App() {
                     </p>
                   </div>
                   <div className="col-lg-2 col-2">
-                    <button onClick={fire}>Apply now</button>
+                    <button className="first_co" onClick={fire}>
+                      Apply now
+                    </button>
                   </div>
                 </div>
               </div>

@@ -1184,11 +1184,12 @@ button:hover {
     width: calc(100vw);
   }
   .firstcohort h2 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .firstcohort p {
     font-size: 12px;
-    max-width: 198px;
+    text-align: center;
+    margin-right: 2px;
   }
   .aboutproject h2 {
     font-size: 28px;
@@ -1198,6 +1199,11 @@ button:hover {
   }
   .propil {
     font-size: 30px;
+  }
+  .first_co {
+    font-size: 7px;
+    padding: initial;
+    font-weight: 500;
   }
   .heroproject p {
     font-size: 16px;
@@ -1303,6 +1309,11 @@ button:hover {
     letter-spacing: 0.12px;
   }
   #move-btn {
+    font-size: 11px;
+    padding: 8px 26px;
+    margin: auto;
+  }
+  #fall_off {
     font-size: 11px;
     padding: 8px 26px;
     margin: auto;

@@ -978,7 +978,7 @@ button:hover {
     height: calc(134vh);
     width: calc(100vw);
     margin-top: 59px;
-    margin-bottom: 102px;
+    margin-bottom: 120px;
   }
 
   .program_x_section3 {
@@ -1116,7 +1116,7 @@ button:hover {
   #mobile_take {
     justify-content: center;
     display: flex;
-    top: 2050px;
+    top: 2093px;
     align-items: center;
     margin: auto;
     position: relative;

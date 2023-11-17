@@ -1882,8 +1882,6 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004032.svg?updatedAt=1700231383895);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(109vh);
-    width: calc(100vw);
   }
   .firstcohort h2 {
     font-size: 15px;
@@ -1960,8 +1958,7 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004037.svg?updatedAt=1700232127936);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(109vh);
-    width: calc(100vw);
+
     margin-top: 59px;
     margin-bottom: 100px;
   }
@@ -1969,8 +1966,7 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004038.svg?updatedAt=1700242503757);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(109vh);
-    width: calc(100vw);
+
     margin-top: 80px;
     margin-bottom: 69px;
   }
@@ -1978,8 +1974,7 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004039.svg?updatedAt=1700243676503);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(109vh);
-    width: calc(100vw);
+
     margin-top: 20px;
     margin-bottom: 120px;
   }

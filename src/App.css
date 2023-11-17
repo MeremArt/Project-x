@@ -1201,8 +1201,11 @@ button:hover {
     font-size: 30px;
   }
   .first_co {
+    justify-content: center;
+    align-items: center;
     font-size: 7px;
-    padding: initial;
+    margin: auto;
+    padding: 5px;
     font-weight: 500;
   }
   .heroproject p {
@@ -1278,7 +1281,7 @@ button:hover {
     top: 7676px;
     align-items: center;
     margin: auto;
-    position: absolute;
+    /* position: absolute; */
   }
   #mobile_take {
     justify-content: center;
@@ -1286,7 +1289,7 @@ button:hover {
     top: 5530px;
     align-items: center;
     margin: auto;
-    position: absolute;
+    /* position: absolute; */
   }
   #mobile_become h2 {
     color: var(--grayscale-off-white, #fcfcfc);
@@ -1396,7 +1399,7 @@ button:hover {
     height: 25px;
   }
 }
-@media (min-width: 375px) and (max-width: 390px) {
+@media (min-width: 375px) and (max-width: 389px) {
   .slide-it {
     display: flex;
     justify-content: center;
@@ -1620,7 +1623,7 @@ button:hover {
     top: 2112px;
     align-items: center;
     margin: auto;
-    position: relative;
+    /* position: relative; */
   }
   #mobile_take h2 {
     color: var(--grayscale-off-white, #fcfcfc);
@@ -1639,9 +1642,6 @@ button:hover {
     font-size: 11px;
     padding: 8px 26px;
     margin: auto;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* margin-left: -11px; */
   }
   #mobile_become {
     justify-content: center;
@@ -1649,7 +1649,7 @@ button:hover {
     bottom: 35px;
     align-items: center;
     margin: auto;
-    position: relative;
+    /* position: relative; */
   }
   #mobile_become h2 {
     color: var(--grayscale-off-white, #fcfcfc);

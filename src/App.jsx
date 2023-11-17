@@ -626,7 +626,7 @@ function App() {
                       of discipline
                     </p>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-4">
+                  <div className="col-lg-2 col-md-2 col-6">
                     <button className="impact_btn">Join the team</button>
                   </div>
                 </div>

@@ -1119,7 +1119,7 @@ button:hover {
     top: 2240px;
     align-items: center;
     margin: auto;
-    position: relative;
+    /* position: relative; */
   }
   #mobile_take h2 {
     color: var(--grayscale-off-white, #fcfcfc);
@@ -1148,7 +1148,7 @@ button:hover {
     bottom: 35px;
     align-items: center;
     margin: auto;
-    position: relative;
+    /* position: relative; */
   }
   #mobile_become h2 {
     color: var(--grayscale-off-white, #fcfcfc);

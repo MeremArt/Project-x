@@ -911,7 +911,7 @@ button:hover {
 /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
-@media (min-width: 375px) and (max-width: 390px) {
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .slide-it {
     display: flex;
     justify-content: center;

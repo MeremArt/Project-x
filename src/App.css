@@ -1145,10 +1145,11 @@ button:hover {
   #mobile_become {
     justify-content: center;
     display: flex;
-    bottom: 35px;
+    /* bottom: 35px; */
     align-items: center;
     margin: auto;
     /* position: relative; */
+    padding-bottom: 48px;
   }
   #mobile_become h2 {
     color: var(--grayscale-off-white, #fcfcfc);
@@ -1163,16 +1164,190 @@ button:hover {
 }
 @media (min-width: 390px) and (max-width: 414px) {
   .program_x_section {
-    height: calc(109vh);
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700161385/Frame_1000004032_1_if4bnh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 925px;
+    width: calc(100vw);
   }
   .program_x_section2 {
-    height: calc(109vh);
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700161249/Frame_1000004033_1_penzfv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(113vh);
+    width: calc(100vw);
+    margin-top: 59px;
+    margin-bottom: 140px;
+  }
+  .firstmaster h2 {
+    font-size: 22px;
+  }
+  .firstmaster h1 {
+    font-size: 18px;
+  }
+  .firstmaster p {
+    font-size: 16px;
+  }
+  .secondmaster h2 {
+    font-size: 22px;
+  }
+  .secondmaster h1 {
+    font-size: 18px;
+  }
+  .secondmaster p {
+    font-size: 16px;
+  }
+  .thirdmaster h2 {
+    font-size: 22px;
+  }
+  .thirdmaster h1 {
+    font-size: 18px;
+  }
+  .thirdmaster p {
+    font-size: 16px;
+  }
+  .forthmaster h2 {
+    font-size: 22px;
+  }
+  .forthmaster h1 {
+    font-size: 18px;
+  }
+  .forthmaster p {
+    font-size: 16px;
+  }
+  .cohort p {
+    font-size: 16px;
+  }
+  .masterclass2 {
+    height: 22vh;
+  }
+  .provolunter p {
+    font-size: 16px;
+  }
+  .potential p {
+    font-size: 16px;
+  }
+  .masterclass1 {
+    height: 22vh;
+  }
+  .masterclass3 {
+    height: 22vh;
+  }
+  .volunter {
+    height: 29vh;
+  }
+  .footer h2 {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 8px;
+  }
+  .footer h1 {
+    font-size: 8px;
+  }
+  #impact_iyt {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+  #svg_foot {
+    width: 26px;
+    height: 26px;
+  }
+  .padrocket {
+    padding-left: 0px;
+  }
+  .program_x_section3 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700160976/Frame_1000004035_1_onx8a3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 959px;
+    width: calc(100vw);
+    margin-top: 70px;
+    margin-bottom: 69px;
+  }
+  .program_x_section4 {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700160701/Frame_1000004036_tsenxt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 959px;
+    width: calc(100vw);
+    margin-top: 20px;
+    margin-bottom: 69px;
   }
   #mobile_take {
-    top: 4055px;
+    justify-content: center;
+    display: flex;
+    top: 5530px;
+    align-items: center;
+    margin: auto;
+    /* position: absolute; */
   }
   #mobile_become {
-    top: 5098px;
+    justify-content: center;
+    display: flex;
+    top: 7676px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 48px;
+    /* position: absolute; */
+  }
+  #mobile {
+    display: none;
+  }
+  #hide_mobile {
+    display: none;
+  }
+  #mobile_become h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+  #mobile_take h2 {
+    color: var(--grayscale-off-white, #fcfcfc);
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+  #move-btn {
+    font-size: 11px;
+    padding: 8px 26px;
+    margin: auto;
+  }
+  .heroproject p {
+    font-size: 16px;
+  }
+  .heroproject h2 {
+    font-size: 30px;
+  }
+  .firstcohort h2 {
+    font-size: 15px;
+  }
+  .firstcohort p {
+    font-size: 12px;
+    text-align: center;
+    margin-right: 2px;
+  }
+  .propil {
+    font-size: 30px;
+  }
+  .first_co {
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    margin: auto;
+    padding: 5px;
+    font-weight: 500;
   }
 }
 @media (min-width: 414px) and (max-width: 430px) {
@@ -1213,6 +1388,10 @@ button:hover {
   }
   .heroproject h2 {
     font-size: 30px;
+  }
+  #Desx {
+    display: flex;
+    height: fit-content;
   }
   .Impact p {
     font-size: 16px;
@@ -1281,6 +1460,7 @@ button:hover {
     top: 7676px;
     align-items: center;
     margin: auto;
+    padding-bottom: 48px;
     /* position: absolute; */
   }
   #mobile_take {
@@ -1649,6 +1829,7 @@ button:hover {
     bottom: 35px;
     align-items: center;
     margin: auto;
+    padding-bottom: 48px;
     /* position: relative; */
   }
   #mobile_become h2 {

@@ -1183,6 +1183,13 @@ button:hover {
     height: calc(109vh);
     width: calc(100vw);
   }
+  .firstcohort h2 {
+    font-size: 18px;
+  }
+  .firstcohort p {
+    font-size: 12px;
+    max-width: 198px;
+  }
   .aboutproject h2 {
     font-size: 28px;
   }

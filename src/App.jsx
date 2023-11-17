@@ -286,13 +286,13 @@ function App() {
               <br />
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-10">
+                  <div className="col-lg-10 col-10">
                     <h2>
                       1ST COHORT -{" "}
                       <span style={{ color: "#EFFE60" }}>12TH SEPT ‘23</span>{" "}
                     </h2>
                   </div>
-                  <div className="col-lg-2">
+                  <div className="col-lg-2 col-2">
                     <div className="padrocket">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -335,13 +335,13 @@ function App() {
               <br />
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-10">
+                  <div className="col-lg-10 col-10">
                     <p>
                       Become a prodigy for <strong>$5,000</strong> or check
                       scholarship worthiness
                     </p>
                   </div>
-                  <div className="col-lg-2">
+                  <div className="col-lg-2 col-2">
                     <button onClick={fire}>Apply now</button>
                   </div>
                 </div>

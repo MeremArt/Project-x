@@ -22,7 +22,7 @@ function App() {
   const fire = () => {
     setToggleModal(true);
 
-    const modalElement = document.getElementById('yourModalId'); 
+    const modalElement = document.getElementById("yourModalId");
     if (modalElement) {
       modalElement.scrollIntoView({ behavior: "smooth", block: "start" });
     }
@@ -87,7 +87,7 @@ function App() {
 
             <div className="col-lg-2 col-md-2 ">
               <div className="slide-it">
-                <SlidingDiv  fire={fire}/>
+                <SlidingDiv fire={fire} />
               </div>
             </div>
 
@@ -175,26 +175,7 @@ function App() {
           <br />
           <br />
           <br />
-          <div id="mobile_take" className="container">
-            <div>
-              <h2>
-                Take charge & change! <br /> Join the community
-              </h2>
-              <div className="col-lg-4 col-md-4">
-                <button id="move-btn">Apply now</button>
-              </div>
-            </div>
-          </div>
-          <div id="mobile_become" className="container">
-            <div>
-              <h2>
-                Take charge & change! <br /> Join the community
-              </h2>
-              <div className="col-lg-4 col-md-4">
-                <button id="move-btn">Apply now</button>
-              </div>
-            </div>
-          </div>
+
           <div className="program_x_section">
             <div className="position_element">
               <div id="hide_mobile" className="container">
@@ -236,6 +217,35 @@ function App() {
           </div>
           <br />
           <br />
+          <div id="mobile_take" className="container">
+            <div>
+              <h2>
+                Take charge & change! <br /> Join the community
+              </h2>
+              <div className="col-lg-4 col-md-4">
+                <button id="move-btn">Apply now</button>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div className="program_x_section3">
+            <div className="position_element"></div>
+          </div>
+
+          <div className="program_x_section4">
+            <div className="position_element"></div>
+          </div>
+          <div id="mobile_become" className="container">
+            <div>
+              <h2>
+                Take charge & change! <br /> Join the community
+              </h2>
+              <div className="col-lg-4 col-md-4">
+                <button id="move-btn">Apply now</button>
+              </div>
+            </div>
+          </div>
         </section>
         <br />
         <br />
@@ -278,15 +288,16 @@ function App() {
               <br />
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-10">
+                  <div className="col-lg-10 col-10">
                     <h2>
                       1ST COHORT -{" "}
                       <span style={{ color: "#EFFE60" }}>12TH SEPT ‘23</span>{" "}
                     </h2>
                   </div>
-                  <div className="col-lg-2">
+                  <div className="col-lg-2 col-2">
                     <div className="padrocket">
                       <svg
+                        id="svg_foot"
                         xmlns="http://www.w3.org/2000/svg"
                         width="68"
                         height="68"
@@ -326,15 +337,17 @@ function App() {
               <br />
               <br />
               <div className="container">
-                <div className="row">
-                  <div className="col-lg-10">
+                <div id="impact_iyt" className="row">
+                  <div className="col-lg-10 col-10">
                     <p>
                       Become a prodigy for <strong>$5,000</strong> or check
                       scholarship worthiness
                     </p>
                   </div>
-                  <div className="col-lg-2">
-                    <button onClick={fire}>Apply now</button>
+                  <div className="col-lg-2 col-sm-6">
+                    <button className="first_co" onClick={fire}>
+                      Apply now
+                    </button>
                   </div>
                 </div>
               </div>
@@ -438,15 +451,16 @@ function App() {
             <br />
             <div className="container">
               <div className="row">
-                <div className="col-lg-10">
+                <div className="col-lg-10 col-10">
                   <h2>
                     1ST COHORT -{" "}
                     <span style={{ color: "#EFFE60" }}>12TH SEPT ‘23</span>{" "}
                   </h2>
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-2">
                   <div className="padrocket">
                     <svg
+                      id="svg_foot"
                       xmlns="http://www.w3.org/2000/svg"
                       width="68"
                       height="68"
@@ -486,15 +500,17 @@ function App() {
             <br />
             <br />
             <div className="container">
-              <div className="row">
-                <div className="col-lg-10">
+              <div id="impact_iyt" className="row">
+                <div className="col-lg-10 col-10">
                   <p>
                     Become a prodigy for <strong>$5,000</strong> or check
                     scholarship worthiness
                   </p>
                 </div>
-                <div className="col-lg-2">
-                  <button onClick={fire}>Apply now</button>
+                <div className="col-lg-2 col-sm-6">
+                  <button className="first_co" onClick={fire}>
+                    Apply now
+                  </button>
                 </div>
               </div>
             </div>
@@ -565,7 +581,7 @@ function App() {
                   <div className="col-lg-10 col-10">
                     <h2>MAKE AN IMPACT</h2>
                   </div>
-                  <div className="col-lg-2 col-2">
+                  <div className="col-lg-2 col-md-2 col-2">
                     <div className="padrocket ">
                       <svg
                         className="impact_svg"
@@ -603,14 +619,14 @@ function App() {
               <br />
               <div className="container">
                 <div id="impact_iyt" className="row">
-                  <div className="col-lg-10 col-8">
+                  <div className="col-lg-10 col-md-10 col-8">
                     <h1>BE An agent of change</h1>
                     <p>
                       Volunteer to mentor community members in different areas
                       of discipline
                     </p>
                   </div>
-                  <div className="col-lg-2 col-4">
+                  <div className="col-lg-2 col-md-2 col-6">
                     <button className="impact_btn">Join the team</button>
                   </div>
                 </div>

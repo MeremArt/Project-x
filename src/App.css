@@ -154,7 +154,7 @@
   width: 100%;
   overflow-y: hidden;
   height: 88vh;
-  background-color: #000;
+  background-color: #070707;
   background-image: linear-gradient(to right, #000 50%, transparent 50%);
 }
 .padrocket {
@@ -1329,7 +1329,7 @@ button:hover {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700161249/Frame_1000004033_1_penzfv.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(128vh);
+    height: calc(133vh);
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 140px;
@@ -1348,7 +1348,7 @@ button:hover {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700160701/Frame_1000004036_tsenxt.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(128vh);
+    height: calc(137vh);
     width: calc(100vw);
     margin-top: 20px;
     margin-bottom: 69px;
@@ -1401,7 +1401,7 @@ button:hover {
     font-size: 16px;
   }
   .masterclass2 {
-    height: 22vh;
+    height: 25vh;
   }
   .provolunter p {
     font-size: 16px;
@@ -1410,10 +1410,10 @@ button:hover {
     font-size: 16px;
   }
   .masterclass1 {
-    height: 22vh;
+    height: 25vh;
   }
   .masterclass3 {
-    height: 22vh;
+    height: 25vh;
   }
   .volunter {
     height: 29vh;
@@ -1470,7 +1470,7 @@ button:hover {
   #mobile_take {
     justify-content: center;
     display: flex;
-    top: 2240px;
+    top: 2112px;
     align-items: center;
     margin: auto;
     position: relative;

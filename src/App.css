@@ -1205,7 +1205,7 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004037.svg?updatedAt=1700232127936);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(113vh);
+    height: 959px;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 140px;
@@ -1881,7 +1881,7 @@ button:hover {
   .program_x_section {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004032.svg?updatedAt=1700231383895);
     background-size: cover;
-    height: calc(121vh);
+    height: 1000px;
     width: calc(100vw);
     background-repeat: no-repeat;
   }
@@ -1960,7 +1960,7 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004037.svg?updatedAt=1700232127936);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(115vh);
+    height: 1000px;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 100px;
@@ -1969,7 +1969,7 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004038.svg?updatedAt=1700242503757);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(121vh);
+    height: calc(134vh);
     width: calc(100vw);
     margin-top: 80px;
     margin-bottom: 69px;
@@ -2145,5 +2145,11 @@ button:hover {
     width: calc(100vw);
     margin-top: 20px;
     margin-bottom: 120px;
+  }
+}
+/* Media query for iPhone 11 */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  /* Your styles for iPhone 11 go here */
+  body {
   }
 }

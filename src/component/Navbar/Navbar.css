@@ -62,7 +62,11 @@ a {
   transform: rotate(90deg);
 }
 .logo {
-  height: 5vh;
+  height: 2rem;
+  margin-left: 60px;
+}
+.fix-log {
+  margin-right: 60px;
 }
 .holy_bean {
   color: var(--clr-grey-3);

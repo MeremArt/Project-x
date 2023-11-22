@@ -53,7 +53,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 140%;
   letter-spacing: 0.12px;
 }
 .projectwhite {
@@ -77,7 +77,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 140%;
   letter-spacing: 0.12px;
 }
 .propil {
@@ -91,20 +91,22 @@
 }
 
 .program_x_section {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699898541/Frame_848_2_ur9nz1.png");
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700695993/Frame_848_3_g4fu2z.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
-  height: calc(100vw); /* Set height to 50% of the viewport width */
+  height: calc(101vw); /* Set height to 50% of the viewport width */
   width: calc(100vw);
 }
-
+#move-btn {
+  margin-top: 31px;
+}
 .program_x_section2 {
   background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699897385/Frame_849_qi6lmz.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
   /* height: 1300px;
   width: 100%; */
-  height: calc(100vw); /* Set height to 50% of the viewport width */
+  height: calc(101vw); /* Set height to 50% of the viewport width */
   width: calc(100vw); /* Set width to 50% of the viewport width */
 }
 
@@ -118,10 +120,10 @@
   height: 100%;
 }
 .herohappy {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698606966/Rectangle_569_b6ucci.png");
-  background-size: cover; /* Scale the background image to cover the entire element */
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700687097/Rectangle_569_4_udoekg.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 88vh;
+  height: 747px;
   width: 100%;
 }
 #Desx {

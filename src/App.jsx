@@ -129,7 +129,7 @@ function App() {
               <div className="aboutim">
                 <img
                   className="img_abt"
-                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699656155/Frame_864_ledisy.png"
+                  src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700684318/Frame_864_1_gyqd0c.png"
                   alt="image"
                 />
               </div>
@@ -157,6 +157,10 @@ function App() {
             </p>
           </center>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <section className="Programpillar">
@@ -247,12 +251,7 @@ function App() {
             </div>
           </div>
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
         <section>
-          <hr style={hrStyle} />
           <div className="container">
             <div className="aboutproject">
               <h2 className="">Workshops</h2>

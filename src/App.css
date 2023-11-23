@@ -2128,10 +2128,8 @@ button:hover {
     margin-bottom: 100px;
   }
   .program_x_section3 {
-    background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004038%20(
-        1
-      ).svg?updatedAt=1700246063050);
-    /*  */
+    background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004038%201.svg?updatedAt=1700246063050);
+ 
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(120vh);

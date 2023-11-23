@@ -227,7 +227,7 @@ function App() {
                 Take charge & change! <br /> Join the community
               </h2>
               <div className="col-lg-4 col-md-4">
-                <button id="move-btn">Apply now</button>
+                <button id="move-btn" onClick={fire}>Apply now</button>
               </div>
             </div>
           </div>
@@ -246,7 +246,7 @@ function App() {
                 Take charge & change! <br /> Join the community
               </h2>
               <div className="col-lg-4 col-md-4">
-                <button id="move-btn">Apply now</button>
+                <button id="move-btn" onClick={fire}>Apply now</button>
               </div>
             </div>
           </div>

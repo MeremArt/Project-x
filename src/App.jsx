@@ -88,7 +88,7 @@ function App() {
 
               <div className="col-lg-2 col-md-2 ">
                 <div className="slide-it">
-                  <SlidingDiv fire={fire} />
+                  <SlidingDiv />
                 </div>
               </div>
 
@@ -640,15 +640,19 @@ function App() {
             </div>
           </div>
         </section>
+
         <section className="heroproject">
           <br />
+          <hr style={WStyle} />
+          <br />
+
           <br />
           <br />
           <br />
           <br />
           <br />
           <br />
-          <br />
+
           <div className="container">
             <center>
               <div>

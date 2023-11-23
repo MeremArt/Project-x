@@ -66,7 +66,7 @@ function App() {
             <div className="col-sm-6">
               <div className="slide-it">
                 <ReverseSlide />
-                <SlidingDiv fire={fire} />
+                <SlidingDiv />
               </div>
             </div>
             <div className="col-sm-6">
@@ -78,21 +78,23 @@ function App() {
           </div>
         </div>
         <div id="mobile" className="cover-slide">
-          <div className="row">
-            <div className="col-lg-2 col-md-2  ">
-              <div className="slide-it">
-                <ReverseSlide />
+          <div className="">
+            <div className="row">
+              <div className="col-lg-2 col-md-2  ">
+                <div className="slide-it">
+                  <ReverseSlide />
+                </div>
               </div>
-            </div>
 
-            <div className="col-lg-2 col-md-2 ">
-              <div className="slide-it">
-                <SlidingDiv fire={fire} />
+              <div className="col-lg-2 col-md-2 ">
+                <div className="slide-it">
+                  <SlidingDiv fire={fire} />
+                </div>
               </div>
-            </div>
 
-            <div className="col-lg-8 col-md-8 ">
-              <div className="herohappy"> </div>
+              <div className="col-lg-8 col-md-8 ">
+                <div className="herohappy"> </div>
+              </div>
             </div>
           </div>
         </div>
@@ -227,7 +229,9 @@ function App() {
                 Take charge & change! <br /> Join the community
               </h2>
               <div className="col-lg-4 col-md-4">
-                <button id="move-btn" onClick={fire}>Apply now</button>
+                <button id="move-btn" onClick={fire}>
+                  Apply now
+                </button>
               </div>
             </div>
           </div>
@@ -246,7 +250,9 @@ function App() {
                 Take charge & change! <br /> Join the community
               </h2>
               <div className="col-lg-4 col-md-4">
-                <button id="move-btn" onClick={fire}>Apply now</button>
+                <button id="move-btn" onClick={fire}>
+                  Apply now
+                </button>
               </div>
             </div>
           </div>
@@ -362,7 +368,7 @@ function App() {
         <section className="">
           <div className="firstmaster">
             <br />
-            <br />
+
             <div className="container">
               <h2>1st Masterclass</h2>
             </div>
@@ -382,7 +388,7 @@ function App() {
           <div className="masterclass1"></div>
           <div className="secondmaster">
             <br />
-            <br />
+
             <div className="container">
               <h2>2nd Masterclass</h2>
             </div>
@@ -401,7 +407,6 @@ function App() {
           </div>
           <div className="masterclass2"></div>
           <div className="thirdmaster">
-            <br />
             <br />
             <div className="container">
               <h2>3rd Masterclass</h2>
@@ -423,7 +428,6 @@ function App() {
             <div className="masterclass3"></div>
           </center>
           <div className="forthmaster">
-            <br />
             <br />
             <div className="container">
               <h2>4th Masterclass</h2>
@@ -571,9 +575,10 @@ function App() {
         <section>
           <br />
           <br />
+          <br />
+          <br />
           <div className="">
             <div className="Impact">
-              <br />
               <br />
               <div className="container">
                 <div className="row">
@@ -636,6 +641,12 @@ function App() {
           </div>
         </section>
         <section className="heroproject">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <br />
           <br />
           <div className="container">

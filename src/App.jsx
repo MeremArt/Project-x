@@ -655,7 +655,9 @@ function App() {
           <div className="container">
             <center>
               <div>
-                <h2>Empowering youths to Reach Their Potential</h2>
+                <h2>
+                  Empowering youths to Reach <br /> Their Potential
+                </h2>
               </div>
               <br />
               <br />

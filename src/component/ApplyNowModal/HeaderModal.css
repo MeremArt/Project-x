@@ -1,16 +1,23 @@
-.Header_container{
-    border-bottom:2px solid #EBEBEB ;
-    display: flex;
-    justify-content: flex-start;
-    gap: 40%;
+.Header_container {
+  border-bottom: 2px solid #ebebeb;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40%;
 }
-.Header_container p{
-    color: #000;
+.Header_container p {
+  color: #030303;
+  font-family: Clash Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: 0.24px;
+  margin-top: 6px;
 }
-@media(max-width:786px){
-    .Header_container{
-        padding: 10px 10px;
-        background: #fff;
-        gap: 30%;
-    }   
+@media (max-width: 786px) {
+  .Header_container {
+    padding: 10px 10px;
+    background: #fff;
+    gap: 30%;
+  }
 }

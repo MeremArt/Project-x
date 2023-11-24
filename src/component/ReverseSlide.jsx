@@ -71,7 +71,7 @@ function ReverseSlide() {
 
           <br />
           <p className="container">
-            Find out what it takes to get a scholarship into
+            Find out what it takes to get a scholarship <br /> into <br />
             <strong>Project X</strong> program
           </p>
         </center>

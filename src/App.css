@@ -1,10 +1,16 @@
 .heroproject {
   background-color: #070707;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700837653/image_15_zfrbr0.png);
   height: 100%;
   width: 100%;
 }
 .Programpillar {
   background-color: #070707;
+
   height: 100%;
   width: 100%;
 }
@@ -101,7 +107,7 @@
   margin-top: 31px;
 }
 .program_x_section2 {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699897385/Frame_849_qi6lmz.png");
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700781174/Frame_849_3_udcxar.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
   /* height: 1300px;
@@ -398,7 +404,7 @@ button:hover {
   width: 100%;
 }
 .masterclass3 {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698541244/Bg_2_m0ckri.png");
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700780387/Bg_7_qgu6uz.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
   height: 90vh;
@@ -503,7 +509,7 @@ button:hover {
   text-transform: uppercase;
 }
 .masterclass2 {
-  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1698540711/Bg_1_qezbw4.png");
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1700779336/Bg_6_xkfqfc.png");
   background-size: cover; /* Scale the background image to cover the entire element */
   background-repeat: no-repeat;
   height: 90vh;

@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./SlidingDiv.css"; // Import your CSS
 
-function SlidingDiv({fire}) {
+function SlidingDiv({ fire }) {
   const [isUp, setIsUp] = useState(true);
 
   useEffect(() => {
     const animationInterval = setInterval(() => {
       setIsUp((prevIsUp) => !prevIsUp);
-    }, 5000);
+    }, 7000);
 
     return () => {
       clearInterval(animationInterval);
@@ -26,7 +26,6 @@ function SlidingDiv({fire}) {
             the crowd and gives you an edge in the grand scheme of things, got
             the <strong>X-Factor?</strong>{" "}
           </p>
-          <br />
           <br />
           <button id="btn-animation" className="btb" onClick={fire}>
             Apply now

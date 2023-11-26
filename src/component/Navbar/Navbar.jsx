@@ -31,7 +31,6 @@ const Navbar = ({ links, fire }) => {
             src={!toggleMenu ? Hamburger : Close}
             alt="Close tab or hamburger"
           />
-          {/* <img src={Close} alt="Close tab or hamburger" /> */}
         </div>
         {toggleMenu && <Navmodal setToggleMenu={setToggleMenu} fire={fire} />}
       </div>

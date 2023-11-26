@@ -1,22 +1,31 @@
 .Main_modal {
-  /* border: 1px solid red; */
   position: absolute;
   top: 14%;
-  right: 0;
-  left: 0;
+  right: -50%; /* Start from the right outside the viewport */
+  left: 100%; /* Center the modal horizontally */
+  /* Adjust for centering using transform */
   background-image: url(/images/bg.jpg);
   height: 500px;
+  transition: right 2s ease; /* Transition the 'right' property */
 }
+
+.Main_modal.show {
+  transition: 0.5s ease;
+  right: 0;
+  left: 0; /* Move to the center of the viewport when visible */
+  transform: translateX(0); /* Adjust for centering using transform */
+}
+
 .Modal_container {
-  /* border:1px solid green; */
   width: 92%;
   margin: 30px 0px 30px 30px;
 }
+
 .Modal_list {
-  /* border:1px solid rgb(66, 0, 128); */
   display: flex;
   flex-direction: column;
 }
+
 .Modal_list li {
   color: #fcfcfc;
   font-size: 48px;
@@ -34,7 +43,6 @@
 
 @media screen and (min-width: 768px) {
   .Main_modal {
-    /* border: 1px solid red; */
     position: absolute;
     top: 12%;
   }

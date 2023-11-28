@@ -1,7 +1,7 @@
 /* Styles for Above Content */
 .content-above {
   transition: opacity 2s;
-
+  overflow: hidden;
   height: 300px;
   width: 210px;
   border-radius: 8px;
@@ -24,7 +24,7 @@
   color: #ffe888;
   text-align: center;
   font-family: Satoshi;
-  font-size: 12px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
@@ -179,5 +179,16 @@
   }
   .content-below p {
     font-size: 16px;
+  }
+}
+@media (max-width: 1440px) {
+  .sliding-div-container {
+    width: 240px;
+  }
+  .content-above {
+    width: 240px;
+  }
+  .content-below {
+    width: 240px;
   }
 }

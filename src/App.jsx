@@ -266,6 +266,7 @@ function App() {
             </div>
           </div>
         </section>
+        <br />
         <section>
           <div className="container">
             <div className="aboutproject">
@@ -651,9 +652,7 @@ function App() {
         </section>
 
         <section className="heroproject">
-          <br />
           <hr style={WStyle} />
-          <br />
           <br />
           <br />
           <br />

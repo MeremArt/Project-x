@@ -1,11 +1,13 @@
 .Main_modal {
-  position: absolute;
+  position: fixed !important;
+
   top: 14%;
   right: -50%; /* Start from the right outside the viewport */
   left: 100%; /* Center the modal horizontally */
   /* Adjust for centering using transform */
   background-image: url(/images/bg.jpg);
   height: 500px;
+  z-index: 101;
   transition: right 2s ease; /* Transition the 'right' property */
 }
 

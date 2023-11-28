@@ -148,9 +148,7 @@
   .content-below h2 {
     font-size: 12px;
   }
-  .content-above p {
-    font-size: 16px;
-  }
+
   .content-above h2 {
     font-size: 12px;
   }
@@ -180,6 +178,6 @@
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701209313/Frame_852_1_k7nnxq.png);
   }
   .content-below p {
-    font-size: 8px;
+    font-size: 16px;
   }
 }

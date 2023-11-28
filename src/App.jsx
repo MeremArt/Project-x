@@ -7,6 +7,7 @@ import SlidingDiv from "./component/SlidingDiv";
 import ReverseSlide from "./component/ReverseSlide";
 import MainApplyNow from "./component/ApplyNowModal/MainApplyNow";
 function App() {
+  const [clickPosition, setClickPosition] = useState({ x: 0, y: 0 });
   const hrStyle = {
     width: "100%", // Adjust the width as needed
     border: "1px solid black", // Set the line color, style, and width
@@ -19,16 +20,20 @@ function App() {
   };
 
   const [toggleModal, setToggleModal] = useState(false);
-  const fire = () => {
+  const fire = (event) => {
     setToggleModal(true);
 
     const modalElement = document.getElementById("yourModalId");
     if (modalElement) {
-      modalElement.scrollIntoView({ behavior: "smooth", block: "start" });
+      // Get the click position
+      const { clientX, clientY } = event;
+      setClickPosition({ x: clientX, y: clientY });
     }
   };
+
   const OffFire = () => {
     setToggleModal(false);
+    // Additional logic related to hiding the modal if needed
   };
 
   return (
@@ -44,6 +49,8 @@ function App() {
             <br />
 
             <center>
+              <br />
+              <br />
               <div>
                 <h2>Unleash your awesomeness & Ignite your inner spark</h2>
               </div>
@@ -53,7 +60,9 @@ function App() {
               <button onClick={fire}>Apply now!</button>
               <br />
             </center>
-            {toggleModal && <MainApplyNow OffFire={OffFire} />}
+            {toggleModal && (
+              <MainApplyNow OffFire={OffFire} clickPosition={clickPosition} />
+            )}
             <br />
             <br />
             <br />
@@ -665,6 +674,9 @@ function App() {
               <br />
               <br />
               <button onClick={fire}>Apply now</button>
+              {toggleModal && (
+                <MainApplyNow OffFire={OffFire} clickPosition={clickPosition} />
+              )}
               <br />
               <br />
               <br />

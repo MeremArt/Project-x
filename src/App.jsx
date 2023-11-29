@@ -349,7 +349,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <br />
+              <br id="hide_mobile" />
               <br />
               <div className="container">
                 <div id="impact_iyt" className="row">

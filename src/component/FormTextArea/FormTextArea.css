@@ -1,58 +1,59 @@
 .FormTextArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.FormTextArea label {
+  font-size: 16px;
+  font-family: Clash Display;
+  word-wrap: break-word;
+  color: #38383a;
+  font-weight: 500;
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.FormTextArea textarea {
+  width: 100%;
+  height: 100px;
+  padding: 16px 12px;
+  border-radius: 8px;
+  outline: none;
+  background: none;
+  border: 1px solid #999ca0;
+  color: #999ca0;
+  font-size: 16px;
+  font-family: Clash Display;
+  font-weight: 500;
+  line-height: 22px;
+  word-wrap: break-word;
+  position: relative; /* Add this line */
+}
+
+.FormTextArea textarea::before {
+  content: attr(placeholder);
+  position: absolute;
+  top: 12px;
+  left: 8px;
+  pointer-events: none;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.FormTextArea textarea:focus::before {
+  content: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .FormTextArea {
     display: flex;
     flex-direction: column;
+    padding: 0px 20px;
   }
-  
-  .FormTextArea label {
-    font-size: 16px;
-    font-family: Clash Display;
-    word-wrap: break-word;
-    color: #38383a;
-    font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 10px;
-  }
-  
+
   .FormTextArea textarea {
-    width: 100%;
-    height: 100px;
-    padding: 16px 12px;
-    border-radius: 8px;
-    outline: none;
-    background: none;
-    border: 1px solid #999ca0;
-    color: #999ca0;
-    font-size: 16px;
-    font-family: Clash Display;
-    font-weight: 500;
-    line-height: 22px;
-    word-wrap: break-word;
-    position: relative; /* Add this line */
+    background: #fff;
+    height: 154px;
   }
-  
-  .FormTextArea textarea::before {
-    content: attr(placeholder);
-    position: absolute;
-    top: 12px;
-    left: 8px;
-    pointer-events: none;
-    color: #aaa;
-    font-size: 14px;
-  }
-  
-  .FormTextArea textarea:focus::before {
-    content: none;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .FormTextArea {
-      display: flex;
-      flex-direction: column;
-      padding: 0px 20px;
-    }
-  
-    .FormTextArea textarea {
-      background: #fff;
-      height: 154px;
-    }
-  }
+}

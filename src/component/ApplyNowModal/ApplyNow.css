@@ -96,7 +96,132 @@
   background-color: #14142b;
   color: #fff;
 }
+.choose {
+  padding: 12px;
 
+  gap: 16px;
+
+  align-self: stretch;
+  border-radius: 16px;
+  background: #fff;
+}
+.row_it {
+  display: flex;
+  flex-direction: row;
+}
+.choose1 {
+  border-radius: 4px;
+  border: 1px dashed var(--grayscale-line, #d9dbe9);
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701293206/Question_cahb98.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 16px;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+
+  flex: 1 0 0;
+}
+.choose2 {
+  display: flex;
+  padding: 16px;
+
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex: 1 0 0;
+  border-radius: 4px;
+  border: 1px dashed var(--grayscale-placehold, #a0a3bd);
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701293575/Question_1_u1uxmf.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+}
+.input_filled {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  margin-right: 75px;
+}
+
+.choose3 {
+  border-radius: 4px;
+  border: 1px dashed var(--grayscale-placehold, #a0a3bd);
+  background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701294126/Questions_qm7qyz.png");
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex: 1 0 0;
+}
+.choose1 h1 {
+  color: var(--grayscale-off-black, #14142b);
+  font-family: Clash Display;
+  font-size: 16px;
+  font-style: normal;
+  align-self: center;
+  font-weight: 400;
+  text-align: justify;
+  line-height: normal;
+  align-items: flex-start !important;
+}
+.choose2 h1 {
+  color: var(--grayscale-off-black, #14142b);
+  font-family: Clash Display;
+  font-size: 16px;
+  font-style: normal;
+  align-self: center;
+  font-weight: 400;
+  text-align: justify;
+  line-height: normal;
+  align-items: flex-start !important;
+}
+.choose3 h1 {
+  color: var(--grayscale-off-black, #14142b);
+  font-family: Clash Display;
+  font-size: 16px;
+  font-style: normal;
+  align-self: center;
+  font-weight: 400;
+  text-align: justify;
+  line-height: normal;
+  align-items: flex-start !important;
+}
+.choose p {
+  color: var(--grayscale-label, #6e7191);
+  font-family: Clash Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  flex-direction: row;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.14px;
+  display: flex;
+  flex-direction: row;
+}
+.Text-container {
+  display: flex;
+  padding-top: 12px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+.Textarea {
+  color: var(--light-trunks, #999ca0);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  height: 100px;
+  width: -webkit-fill-available;
+  border-radius: 8px;
+  border: 0.5px solid var(--grayscale-line, #d9dbe9);
+  background: var(--grayscale-off-white, #fcfcfc);
+}
 @media (max-width: 768px) {
   .display_container {
     display: flex;

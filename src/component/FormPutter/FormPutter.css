@@ -1,57 +1,60 @@
 .FileInputContainer {
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    gap:16px;
-    border: 2px dotted #A0A3BD ;
-    background: #F9F9FB;
-    padding: 12px 16px;
-    height: 100px;
-    border-radius: 8px;
-  }
-
-  .File_conton p span{
-    color: #181819;
-    font-size: 16px;
-    font-family: Satoshi;
-    font-weight: 700;
-    text-decoration: underline;
-    line-height: 22px;
-    word-wrap: break-word
-  }
-  .File_conton p{
-    color: #999CA0;
-    font-size: 16px;
-    font-family: Satoshi;
-    font-weight: 400;
-    line-height: 22px;
-  }
-
-  
-  .FileIcon {
-    margin-right: 8px;
-    font-size: 20px;
-  }
-  
-  input[type="file"] {
-    display:none;
-  }
-  .File_num label{
-    font-size: 16px;
-    font-family: Clash Display;
-    word-wrap: break-word;
-    color: #38383A;
-    font-weight: 500; 
-    line-height: 20px; 
-    word-wrap: break-word;
-    margin-bottom: 10px;
-
-  }
-  @media (max-width: 768px) {
-      .File_num {
-          padding: 0px 20px;
-          
-      }
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: 2px dotted #a0a3bd;
+  background: #f9f9fb;
+  padding: 12px 16px;
+  height: 100px;
+  border-radius: 8px;
 }
-  
+
+.File_conton p span {
+  color: #181819;
+  font-size: 16px;
+  font-family: Satoshi;
+  font-weight: 700;
+  text-decoration: underline;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+.File_conton p {
+  color: #999ca0;
+  font-size: 16px;
+  font-family: Satoshi;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.FileIcon {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+.File_num label {
+  font-size: 16px;
+  font-family: Clash Display;
+  word-wrap: break-word;
+  color: #38383a;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+  margin-bottom: 26px;
+}
+.label_fix {
+  text-align: left;
+  margin-right: 163px;
+}
+@media (max-width: 768px) {
+  .File_num {
+    padding: 0px 20px;
+  }
+  .label_fix {
+    text-align: left;
+    margin-right: 0px;
+  }
+}

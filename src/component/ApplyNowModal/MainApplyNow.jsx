@@ -17,12 +17,14 @@ export default function MainApplyNow({ OffFire, clickPosition }) {
   };
 
   return (
-    <main className="Main" id="yourModalId" style={modalStyle}>
-      {changeEvent ? (
-        <ApplyNowDetails setChangeEVent={setChangeEvent} OffFire={OffFire} />
-      ) : (
-        <Success OffFire={OffFire} />
-      )}
-    </main>
+    <div className="container">
+      <main className="Main" id="yourModalId" style={modalStyle}>
+        {changeEvent ? (
+          <ApplyNowDetails setChangeEVent={setChangeEvent} OffFire={OffFire} />
+        ) : (
+          <Success OffFire={OffFire} />
+        )}
+      </main>
+    </div>
   );
 }

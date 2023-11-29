@@ -8,6 +8,7 @@
   padding: 12px 16px;
   height: 100px;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .File_conton p span {

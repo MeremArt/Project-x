@@ -26,6 +26,7 @@
   align-items: center;
   gap: 40px;
   display: inline-flex;
+
   overflow: hidden;
   scrollbar-width: thin;
   scrollbar-color: #4caf50 #f1f1f1;

@@ -104,16 +104,6 @@ export default function ApplyNowDetails({ OffFire }) {
             placeholder=" Tell us why you want to participate (Limit to 200 words)"
             className="cd"
           />
-
-          {/* <FormTextArea
-            type="text"
-            title="What would you see at the end of this project that would make you feel like the project was worth your while?"
-            id="Occupation"
-            placeholder=" How do you plan to utilise the skills, knowledge, and experiences gained from this project to impact your future and the society at large?"
-            className="ef"
-          />
-
-          <FormPutter /> */}
         </div>
         <div className="choose">
           <div>
@@ -122,8 +112,8 @@ export default function ApplyNowDetails({ OffFire }) {
               <div className="row_it">
                 <div className="choose1 ">
                   <h1>
-                    What does it mean to you to be a well-rounded and productive
-                    member of society?
+                    What does it mean to you to be a well-rounded <br /> &
+                    productive member of society?
                   </h1>
                   <div>
                     <input
@@ -178,12 +168,12 @@ export default function ApplyNowDetails({ OffFire }) {
               <div className="row_it">
                 <div className="choose1 ">
                   <h1>
-                    What does it mean to you to be a well-rounded and productive
+                    What does it mean to you to be a well-rounded & productive
                     member of society?
                   </h1>
                   <div>
                     <input
-                      className="input_filled"
+                      className="input_filled2"
                       type="checkbox"
                       checked={""}
                       onChange={""}
@@ -196,7 +186,7 @@ export default function ApplyNowDetails({ OffFire }) {
                   </h1>
                   <div>
                     <input
-                      className="input_filled"
+                      className="input_filled2"
                       type="checkbox"
                       checked={""}
                       onChange={""}
@@ -211,6 +201,20 @@ export default function ApplyNowDetails({ OffFire }) {
               className="Textarea"
               placeholder="Share your thoughts as you please limit to 500 words."
             />
+          </div>
+        </div>
+
+        <div className="Main_container">
+          <div className="Bottom_container">
+            <FormTextArea
+              type="text"
+              title="What would you see at the end of this project that would make you feel like the project was worth your while?"
+              id="Occupation"
+              placeholder=" How do you plan to utilise the skills, knowledge, and experiences gained from this project to impact your future and the society at large?"
+              className="ef"
+            />
+
+            <FormPutter />
           </div>
         </div>
         <div className="back_color"></div>

@@ -587,7 +587,7 @@ function App() {
           <br />
           <br />
           <br />
-          <div className="">
+          <div id="space_impact">
             <div className="Impact">
               <br />
               <div className="container">
@@ -629,7 +629,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <br />
+              <br id="hide_mobile" />
               <br />
               <div className="container">
                 <div id="impact_iyt" className="row">

@@ -1624,7 +1624,15 @@ button:hover {
     overflow-y: hidden;
     flex-direction: row;
   }
-
+  #space_impact {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
   .first_co {
     font-size: 10px;
     margin: auto;
@@ -1823,12 +1831,10 @@ button:hover {
   .impact_btn {
     border-radius: 100px !important;
 
-    padding: 13px 27px;
-
     margin: auto;
-    text-align: center;
+    padding: revert-layer;
     font-family: Satoshi;
-    font-size: 18px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
@@ -1865,6 +1871,11 @@ button:hover {
   #hide_mobile {
     display: none;
   }
+  .Impact {
+    height: 186px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
   #move-btn {
     font-size: 11px;
     padding: 8px 26px;
@@ -1900,6 +1911,20 @@ button:hover {
   }
   .firstcohort h2 {
     font-size: 15px;
+  }
+  .Impact {
+    height: 186px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  #space_impact {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
   }
   .firstcohort {
     height: 151px;
@@ -1957,14 +1982,14 @@ button:hover {
   }
   .impact_btn {
     border-radius: 100px !important;
-    padding: 9px 15px;
+
     margin: auto;
-    text-align: center;
+    padding: revert-layer;
     font-family: Satoshi;
-    font-size: 13px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    /* line-height: 16px; */
+    line-height: 16px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     background: #070707;
     color: #fff;

@@ -112,8 +112,8 @@ export default function ApplyNowDetails({ OffFire }) {
               <div className="row_it">
                 <div className="choose1 ">
                   <h1>
-                    What does it mean to you to be a well-rounded <br /> &
-                    productive member of society?
+                    What does it mean to you to be a well-rounded & productive
+                    member of society?
                   </h1>
                   <div>
                     <input

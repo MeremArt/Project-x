@@ -1,28 +1,23 @@
 import React from "react";
 import "./FormTextArea.css";
 
-export default function FormTextArea({id, placeholder, type, title}) {
-    return (
+export default function FormTextArea({ id, placeholder, type, title }) {
+  return (
+    <div>
       <div>
-         <div>
-        <span className= "FormTextArea">
-            <label
-            htmlFor={id}
-            >
-                {title}
-            </label>
-            {/* <input
+        <span className="FormTextArea">
+          <label htmlFor={id}>{title}</label>
+          {/* <input
                 type={type}
                 placeholder={placeholder}
 
             /> */}
-            <textarea type={type} defaultValue={placeholder}>
-              
-            </textarea>
-
+          <textarea
+            type={type}
+            placeholder="Tell us about yourself (Limit to 200 words)"
+          ></textarea>
         </span>
       </div>
-      </div>
-    )
-  }
-  
+    </div>
+  );
+}

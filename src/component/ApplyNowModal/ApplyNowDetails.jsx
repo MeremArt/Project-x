@@ -30,11 +30,11 @@ export default function ApplyNowDetails({ OffFire }) {
           <FormSelect
             title="Gender"
             namen="gender"
-            secondTitle="select your gender"
+            secondTitle="Select your gender"
             option1="Male"
             option2="Female"
             option3="Others"
-            placeholder="select your gender"
+            placeholder="Select your gender"
             size="3"
             className="c"
           />
@@ -55,7 +55,7 @@ export default function ApplyNowDetails({ OffFire }) {
           <FormSelect
             title="City"
             namen="city"
-            secondTitle="select city"
+            secondTitle="Select city"
             option1="Lagos"
             option2="Abuja"
             option3="Enugu"
@@ -73,7 +73,7 @@ export default function ApplyNowDetails({ OffFire }) {
           <FormSelect
             title="Education level"
             namen="Education level"
-            secondTitle="select Education level"
+            secondTitle="Select Education level"
             option1="Undergraduate"
             option2="Graduate"
             option3="Masters"

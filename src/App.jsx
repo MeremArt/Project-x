@@ -353,7 +353,7 @@ function App() {
               <br />
               <div className="container">
                 <div id="impact_iyt" className="row">
-                  <div className="col-lg-10 col-10">
+                  <div className="col-lg-10 col-12">
                     <p>
                       Become a prodigy for <strong>$5,000</strong> or check
                       scholarship worthiness
@@ -510,11 +510,11 @@ function App() {
                 </div>
               </div>
             </div>
-            <br />
+            <br id="hide_mobile" />
             <br />
             <div className="container">
               <div id="impact_iyt" className="row">
-                <div className="col-lg-10 col-10">
+                <div className="col-lg-10 col-12">
                   <p>
                     Become a prodigy for <strong>$5,000</strong> or check
                     scholarship worthiness

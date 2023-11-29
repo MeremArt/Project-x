@@ -1379,15 +1379,15 @@ button:hover {
     font-size: 15px;
   }
   .firstcohort p {
-    font-size: 12px;
-    text-align: center;
-    margin-right: 2px;
+    font-size: 10px;
   }
   .propil {
     font-size: 30px;
   }
   .first_co {
+    font-size: 10px;
     margin: auto;
+    padding: revert-layer;
   }
 }
 @media (min-width: 414px) and (max-width: 430px) {
@@ -1402,9 +1402,7 @@ button:hover {
     font-size: 15px;
   }
   .firstcohort p {
-    font-size: 12px;
-    text-align: center;
-    margin-right: 2px;
+    font-size: 10px;
   }
   .aboutproject h2 {
     font-size: 28px;
@@ -1416,7 +1414,9 @@ button:hover {
     font-size: 30px;
   }
   .first_co {
+    font-size: 10px;
     margin: auto;
+    padding: revert-layer;
   }
   .heroproject p {
     font-size: 16px;
@@ -1630,16 +1630,17 @@ button:hover {
     overflow-y: hidden;
     flex-direction: row;
   }
+
   .first_co {
+    font-size: 10px;
     margin: auto;
+    padding: revert-layer;
   }
   .firstcohort h2 {
     font-size: 15px;
   }
   .firstcohort p {
-    font-size: 12px;
-    text-align: center;
-    margin-right: 2px;
+    font-size: 10px;
   }
   .masterclass1 {
     background-size: contain;
@@ -1678,6 +1679,10 @@ button:hover {
   }
   .propil {
     font-size: 32px;
+  }
+  .firstcohort {
+    height: 151px;
+    overflow: hidden;
   }
   .potential h2 {
     font-size: 22px;
@@ -1902,10 +1907,12 @@ button:hover {
   .firstcohort h2 {
     font-size: 15px;
   }
+  .firstcohort {
+    height: 151px;
+    overflow: hidden;
+  }
   .firstcohort p {
-    font-size: 12px;
-    text-align: center;
-    margin-right: 2px;
+    font-size: 10px;
   }
   .aboutproject h2 {
     font-size: 28px;
@@ -1916,9 +1923,13 @@ button:hover {
   .propil {
     font-size: 30px;
   }
+
   .first_co {
+    font-size: 10px;
+    padding: revert-layer;
     margin: auto;
   }
+
   .heroproject p {
     font-size: 16px;
   }

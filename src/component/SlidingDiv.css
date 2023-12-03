@@ -135,7 +135,19 @@
   font-weight: 700;
   line-height: 16px; /* 80% */
 }
-@media (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 389px) {
+  .sliding-div-container {
+    height: 88vh;
+    width: 199px;
+  }
+  .content-below {
+    width: 199px;
+  }
+  .content-above {
+    width: 199px;
+  }
+}
+@media (min-width: 414px) and (max-width: 768px) {
   .sliding-div-container {
     width: 199px;
     height: 62vh;

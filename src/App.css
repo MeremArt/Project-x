@@ -1701,24 +1701,26 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004032.svg?updatedAt=1700231383895);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(134vh);
+    height: 887px;
     width: calc(100vw);
   }
   .program_x_section2 {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004037.svg?updatedAt=1700232127936);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(133vh);
+    height: 859px;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 140px;
   }
-
+  #mobile_line {
+    display: flex;
+  }
   .program_x_section3 {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004038.svg?updatedAt=1700242503757);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(134vh);
+    height: 891px;
     width: calc(100vw);
     margin-top: 70px;
     margin-bottom: 69px;

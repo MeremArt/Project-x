@@ -63,9 +63,9 @@ function App() {
             {toggleModal && (
               <MainApplyNow OffFire={OffFire} clickPosition={clickPosition} />
             )}
-            <br />
-            <br />
-            <br />
+            <br id="hide_mobile" />
+            <br id="hide_mobile" />
+            <br id="hide_mobile" />
             <br />
           </div>
           <br />
@@ -107,8 +107,8 @@ function App() {
             </div>
           </div>
         </div>
-        <br />
-        <br />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
         <br />
         <section className="projectwhite">
           <hr style={hrStyle} />
@@ -119,8 +119,8 @@ function App() {
           </div>
           <hr style={hrStyle} />
           <div className="container">
-            <br />
-            <br />
+            <br id="hide_mobile" />
+            <br id="hide_mobile" />
             <p className="aboutp">
               The lack of guidance and mentorship is a significant problem
               facing many young people today. Without access to positive role
@@ -133,8 +133,8 @@ function App() {
               potential.
             </p>
           </div>
-          <br />
-          <br />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
           <div className="container">
             <center>
               <div className="aboutim">
@@ -147,15 +147,15 @@ function App() {
             </center>
           </div>
         </section>
-        <br />
-        <br />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
         <div className="container potential">
           <center>
             <br />
             <h2>
               Are you ready to explore your potential and take on the world?
             </h2>
-            <br />
+            <br id="hide_mobile" />
             <br />
             <p>
               Every young person deserves the opportunity to realize their full
@@ -168,16 +168,16 @@ function App() {
             </p>
           </center>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
         <br />
         <section className="Programpillar">
-          <br />
-          <br />
-          <br />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
           <br />
           <hr style={WStyle} />
           <div className="container">
@@ -188,8 +188,8 @@ function App() {
           <hr style={WStyle} />
           <br />
           <br />
-          <br />
-          <br />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
 
           <div className="program_x_section">
             <div className="position_element">
@@ -268,6 +268,7 @@ function App() {
         </section>
         <br />
         <section>
+          <hr id="mobile_line" />
           <div className="container">
             <div className="aboutproject">
               <h2 className="">Workshops</h2>
@@ -275,7 +276,7 @@ function App() {
           </div>
           <hr style={hrStyle} />
           <div className="container">
-            <br />
+            <br id="hide_mobile" />
             <br />
             <p className="aboutp">
               We offer a range of programs designed to equip youth with the
@@ -296,7 +297,7 @@ function App() {
               development;
             </p>
           </div>
-          <br />
+          <br id="hide_mobile" />
           <br />
           <div className="container">
             <div className="firstcohort">
@@ -371,8 +372,8 @@ function App() {
             </div>
           </div>
         </section>
-        <br />
-        <br />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
         <br />
         <br />
         <section className="">
@@ -455,8 +456,8 @@ function App() {
             </div>
           </div>
         </section>
-        <br />
-        <br />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
         <br />
         <br />
         <div className="container">
@@ -531,8 +532,8 @@ function App() {
             <br />
           </div>
         </div>
-        <br />
-        <br />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
         <br />
         <br />
         <section className="container">
@@ -550,9 +551,9 @@ function App() {
             </p>
           </div>
         </section>
-        <br />
-        <br />
-        <br />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
+        <br id="hide_mobile" />
         <br />
         <section className="provolunter">
           <hr style={hrStyle} />
@@ -563,9 +564,9 @@ function App() {
           </div>
 
           <div className="volunter"></div>
-          <br />
-          <br />
-          <br />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
           <div className="container">
             <p>
               Are you passionate about empowering the next generation of
@@ -583,9 +584,9 @@ function App() {
           </div>
         </section>
         <section>
-          <br />
-          <br />
-          <br />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
+          <br id="hide_mobile" />
           <br />
           <div id="space_impact">
             <div className="Impact">

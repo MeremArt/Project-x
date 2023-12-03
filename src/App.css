@@ -14,6 +14,9 @@
   height: 100%;
   width: 100%;
 }
+#mobile_line {
+  display: none;
+}
 .impact_btn {
   background: #070707;
   color: #fff;
@@ -1379,9 +1382,9 @@ button:hover {
     font-size: 30px;
   }
   .first_co {
-    font-size: 10px;
+    font-size: 12px;
+    padding: 9px 24px;
     margin: auto;
-    padding: revert-layer;
   }
 }
 @media (min-width: 414px) and (max-width: 430px) {
@@ -1408,9 +1411,9 @@ button:hover {
     font-size: 30px;
   }
   .first_co {
-    font-size: 10px;
+    font-size: 12px;
+    padding: 9px 24px;
     margin: auto;
-    padding: revert-layer;
   }
   .heroproject p {
     font-size: 16px;
@@ -1634,9 +1637,9 @@ button:hover {
     margin-left: auto;
   }
   .first_co {
-    font-size: 10px;
+    font-size: 12px;
+    padding: 9px 24px;
     margin: auto;
-    padding: revert-layer;
   }
   .firstcohort h2 {
     font-size: 15px;
@@ -1905,12 +1908,15 @@ button:hover {
   .program_x_section {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004032.svg?updatedAt=1700231383895);
     background-size: cover;
-    height: 1000px;
+    height: 977px;
     width: calc(100vw);
     background-repeat: no-repeat;
   }
   .firstcohort h2 {
     font-size: 15px;
+  }
+  #mobile_line {
+    display: flex;
   }
   .Impact {
     height: 186px;
@@ -1944,8 +1950,8 @@ button:hover {
   }
 
   .first_co {
-    font-size: 10px;
-    padding: revert-layer;
+    font-size: 12px;
+    padding: 9px 24px;
     margin: auto;
   }
 
@@ -1984,7 +1990,7 @@ button:hover {
     border-radius: 100px !important;
 
     margin: auto;
-    padding: revert-layer;
+    padding: 9px 24px;
     font-family: Satoshi;
     font-size: 10px;
     font-style: normal;
@@ -2004,28 +2010,28 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004037.svg?updatedAt=1700232127936);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 945px;
     width: calc(100vw);
     margin-top: 59px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
   .program_x_section3 {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004038.svg?updatedAt=1700242503757);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 991px;
     width: calc(100vw);
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 69px;
   }
   .program_x_section4 {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004039.svg?updatedAt=1700243676503);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(134vh);
+    height: 1077px;
     width: calc(100vw);
     margin-top: 20px;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
   }
   #mobile_become {
     justify-content: center;
@@ -2121,7 +2127,7 @@ button:hover {
     font-size: 16px;
   }
   .masterclass2 {
-    height: 22vh;
+    height: 21vh;
   }
   .provolunter p {
     font-size: 16px;
@@ -2130,13 +2136,13 @@ button:hover {
     font-size: 16px;
   }
   .masterclass1 {
-    height: 22vh;
+    height: 21vh;
   }
   .masterclass3 {
-    height: 22vh;
+    height: 21vh;
   }
   .volunter {
-    height: 29vh;
+    height: 22vh;
   }
   .footer h2 {
     font-size: 12px;

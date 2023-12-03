@@ -138,7 +138,7 @@
 @media (max-width: 768px) {
   .sliding-div-container {
     width: 199px;
-    height: 80vh;
+    height: 62vh;
   }
   .content-above p {
     font-size: 16px;
@@ -185,7 +185,7 @@
 }
 
 @media (max-width: 1440px) and (min-width: 1300px) {
-  .sliding-div-container {
+  /* .sliding-div-container {
     width: 240px;
   }
   .content-above {
@@ -194,4 +194,7 @@
   .content-below {
     width: 240px;
   }
+  .sliding-div {
+    width: 240px;
+  } */
 }

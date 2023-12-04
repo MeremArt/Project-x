@@ -229,7 +229,7 @@
 }
 
 @media (max-width: 1440px) and (min-width: 1300px) {
-  /* .sliding-div-container {
+  .sliding-div-container {
     width: 240px;
   }
   .content-above {
@@ -239,6 +239,9 @@
     width: 240px;
   }
   .sliding-div {
-    width: 240px;
-  } */
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701702017/Frame_855_2_edtqqk.png);
+  }
+  .reverse-div {
+    background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701700627/Frame_852_2_y7bxqg.png);
+  }
 }

@@ -1186,6 +1186,15 @@ button:hover {
     justify-content: center;
     display: flex;
   }
+  #space_impact {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
   #mobile_take {
     justify-content: center;
     display: flex;
@@ -1243,6 +1252,19 @@ button:hover {
     height: 925px;
     width: calc(100vw);
   }
+  #space_impact {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Impact h1 {
+    font-size: 11px;
+    text-align: center;
+  }
   .impact_btn {
     border-radius: 100px !important;
     padding: 9px 15px;
@@ -1257,6 +1279,7 @@ button:hover {
     background: #070707;
     color: #fff;
   }
+
   .program_x_section2 {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004037.svg?updatedAt=1700232127936);
     background-size: cover;
@@ -1430,6 +1453,25 @@ button:hover {
     font-size: 12px;
     padding: 9px 24px;
     margin: auto;
+  }
+  .Impact h2 {
+    font-size: 15px;
+  }
+  .Impact p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .impact_svg {
+    width: 25px;
+    height: 25px;
+  }
+  .Impact {
+    height: 186px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .aboutproject h2 {
+    font-size: 28px;
   }
 }
 @media (min-width: 414px) and (max-width: 430px) {

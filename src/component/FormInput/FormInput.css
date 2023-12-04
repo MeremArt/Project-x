@@ -38,4 +38,7 @@
     background: #fff;
     /* width: 90%; */
   }
+  .Form_container label {
+    text-align: justify;
+  }
 }

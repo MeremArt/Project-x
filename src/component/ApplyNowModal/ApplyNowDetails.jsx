@@ -11,6 +11,8 @@ export default function ApplyNowDetails({ OffFire }) {
   const [isChecked, setIsChecked] = useState(false);
   const [checked, setChecked] = useState(false);
   const [off, setOff] = useState(false);
+  const [member, setMember] = useState(false);
+  const [consider, setConsider] = useState(false);
   const handleChange = () => {
     setIsChecked(true);
     setChecked(false);
@@ -27,6 +29,14 @@ export default function ApplyNowDetails({ OffFire }) {
     setIsChecked(false);
     setChecked(false);
     setOff(true);
+  };
+  const handleMember = () => {
+    setMember(true);
+    setConsider(false);
+  };
+  const handleConsider = () => {
+    setConsider(true);
+    setMember(false);
   };
   return (
     <div className="Main_container">
@@ -195,27 +205,33 @@ export default function ApplyNowDetails({ OffFire }) {
             <div>
               <p>Choose one question</p>
               <div className="row_it">
-                <div className="choose1 ">
-                  <h1>
+                <div
+                  className={`choose1 ${member ? "selected" : ""}`}
+                  onClick={handleMember}
+                >
+                  <h1 style={{ color: member ? "#FCFCFC" : "black" }}>
                     What does it mean to you to be a well-rounded & productive
                     member of society?
                   </h1>
                   <div>
                     <input
-                      className="input_filled2"
+                      className={`input_filled2 ${member ? "selected" : ""}`}
                       type="checkbox"
                       checked={""}
                       onChange={""}
                     />
                   </div>
                 </div>
-                <div className="choose2 ">
-                  <h1>
+                <div
+                  className={`choose2 ${consider ? "selected" : ""}`}
+                  onClick={handleConsider}
+                >
+                  <h1 style={{ color: consider ? "#FCFCFC" : "black" }}>
                     What would you consider your biggest achievement so far?
                   </h1>
                   <div>
                     <input
-                      className="input_filled2"
+                      className={`input_filled2 ${consider ? "selected" : ""}`}
                       type="checkbox"
                       checked={""}
                       onChange={""}

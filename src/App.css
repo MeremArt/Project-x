@@ -1284,7 +1284,7 @@ button:hover {
     background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004037.svg?updatedAt=1700232127936);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 959px;
+    height: 901px;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 140px;
@@ -1329,7 +1329,7 @@ button:hover {
     font-size: 16px;
   }
   .masterclass2 {
-    height: 22vh;
+    height: 174px;
   }
   .provolunter p {
     font-size: 16px;
@@ -1338,13 +1338,13 @@ button:hover {
     font-size: 16px;
   }
   .masterclass1 {
-    height: 22vh;
+    height: 174px;
   }
   .masterclass3 {
-    height: 22vh;
+    height: 174px;
   }
   .volunter {
-    height: 29vh;
+    height: 180px;
   }
   .footer h2 {
     font-size: 12px;

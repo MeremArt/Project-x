@@ -143,6 +143,14 @@
   align-items: flex-start;
 
   flex: 1 0 0;
+  &.selected {
+    background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701682667/Selected_sffync.png");
+    color: #your_desired_text_color;
+
+    background-repeat: no-repeat;
+
+    border: none;
+  }
 }
 .choose2 {
   display: flex;
@@ -163,6 +171,9 @@
   margin-top: 14px;
   align-items: center;
   margin-right: 42px;
+  &.selected {
+    display: none;
+  }
 }
 .input_filled2 {
   display: flex;

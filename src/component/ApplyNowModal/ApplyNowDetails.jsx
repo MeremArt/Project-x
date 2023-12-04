@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ApplyNow.css";
 import HeaderModal from "./HeaderModal";
 import FormInput from "../FormInput/FormInput.jsx";
@@ -8,6 +8,12 @@ import Exclamation from "/images/ExclamationMark.svg";
 import FormPutter from "../FormPutter/FormPutter.jsx";
 
 export default function ApplyNowDetails({ OffFire }) {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleChange = () => {
+    setIsChecked(!isChecked);
+  };
+
   return (
     <div className="Main_container">
       <HeaderModal OffFire={OffFire} />
@@ -110,14 +116,17 @@ export default function ApplyNowDetails({ OffFire }) {
             <div>
               <p>Choose one question</p>
               <div className="row_it">
-                <div className="choose1 ">
-                  <h1>
+                <div
+                  className={`choose1 ${isChecked ? "selected" : ""}`}
+                  onClick={handleChange}
+                >
+                  <h1 style={{ color: isChecked ? "#FCFCFC" : "black" }}>
                     What does it mean to you to be a well-rounded & productive
                     member of society?
                   </h1>
                   <div>
                     <input
-                      className="input_filled"
+                      className={`input_filled ${isChecked ? "selected" : ""}`}
                       type="checkbox"
                       checked={""}
                       onChange={""}

@@ -4,7 +4,7 @@ import Success from "./Success";
 import "./Main.css";
 
 export default function MainApplyNow({ OffFire, clickPosition }) {
-  const [changeEvent, setChangeEvent] = useState("ApplyNow");
+  const [changeEvent, setChangeEvent] = useState("true");
 
   const modalStyle = {
     position: "fixed",

@@ -218,25 +218,31 @@ export default function ApplyNowDetails({ OffFire }) {
           </div>
         </div>
         <div className="back_color"></div>
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="divine">
-              <div className="Exclamationy">
-                <img src={Exclamation} alt="Exclamation" />
-                <span>
-                  Only shortlisted candidates will be contacted for further
-                  evaluation and selection.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="Button_last">
-              <button className="cancel" onClick={OffFire}>
-                Cancel
-              </button>
+        <div className="cover_white">
+          <div className="fixed_div">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6">
+                  <div className="divine">
+                    <div className="Exclamationy">
+                      <img src={Exclamation} alt="Exclamation" />
+                      <span>
+                        Only shortlisted candidates will be contacted for
+                        further evaluation and selection.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="Button_last">
+                    <button className="cancel" onClick={OffFire}>
+                      Cancel
+                    </button>
 
-              <button className="Apply">Submit Application</button>
+                    <button className="Apply">Submit Application</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

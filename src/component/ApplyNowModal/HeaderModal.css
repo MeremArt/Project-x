@@ -2,6 +2,7 @@
   border-bottom: 2px solid #ebebeb;
   display: flex;
   justify-content: flex-start;
+  margin-top: 6px;
   gap: 40%;
 }
 .Header_container p {

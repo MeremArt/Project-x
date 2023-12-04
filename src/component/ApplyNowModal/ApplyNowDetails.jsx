@@ -9,11 +9,25 @@ import FormPutter from "../FormPutter/FormPutter.jsx";
 
 export default function ApplyNowDetails({ OffFire }) {
   const [isChecked, setIsChecked] = useState(false);
-
+  const [checked, setChecked] = useState(false);
+  const [off, setOff] = useState(false);
   const handleChange = () => {
-    setIsChecked(!isChecked);
+    setIsChecked(true);
+    setChecked(false);
+    setOff(false);
   };
 
+  const handle2Change = () => {
+    setIsChecked(false);
+    setChecked(true);
+    setOff(false);
+  };
+
+  const handle3Change = () => {
+    setIsChecked(false);
+    setChecked(false);
+    setOff(true);
+  };
   return (
     <div className="Main_container">
       <HeaderModal OffFire={OffFire} />
@@ -133,26 +147,32 @@ export default function ApplyNowDetails({ OffFire }) {
                     />
                   </div>
                 </div>
-                <div className="choose2 ">
-                  <h1>
+                <div
+                  className={`choose2 ${checked ? "selected" : ""}`}
+                  onClick={handle2Change}
+                >
+                  <h1 style={{ color: checked ? "#FCFCFC" : "black" }}>
                     What would you consider your biggest achievement so far?
                   </h1>
                   <div>
                     <input
-                      className="input_filled"
+                      className={`input_filled ${checked ? "selected" : ""}`}
                       type="checkbox"
                       checked={""}
                       onChange={""}
                     />
                   </div>
                 </div>
-                <div className="choose3 ">
-                  <h1>
+                <div
+                  className={`choose3 ${off ? "selected" : ""}`}
+                  onClick={handle3Change}
+                >
+                  <h1 style={{ color: off ? "#FCFCFC" : "black" }}>
                     What is the biggest investment you have made in yourself?
                   </h1>
                   <div>
                     <input
-                      className="input_filled"
+                      className={`input_filled ${off ? "selected" : ""}`}
                       type="checkbox"
                       checked={""}
                       onChange={""}

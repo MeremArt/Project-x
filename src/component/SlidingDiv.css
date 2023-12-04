@@ -231,6 +231,7 @@
 @media (max-width: 1440px) and (min-width: 1300px) {
   .sliding-div-container {
     width: 240px;
+    margin-left: -5px;
   }
   .content-above {
     width: 240px;

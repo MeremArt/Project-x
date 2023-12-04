@@ -147,14 +147,20 @@
     width: 199px;
   }
 }
+@media (min-width: 390px) and (max-width: 414px) {
+  .sliding-div-container {
+    height: 75vh;
+  }
+}
 @media (max-width: 320px) {
   .sliding-div-container {
     height: 87vh;
     width: 199px;
-    .content-below p {
-      font-size: 16px;
-    }
   }
+  .content-below p {
+    font-size: 12px;
+  }
+
   .content-below {
     width: 165px;
   }
@@ -164,7 +170,9 @@
   .content-below h2 {
     font-size: 12px;
   }
-
+  .content-above p {
+    font-size: 12px;
+  }
   .content-above h2 {
     font-size: 12px;
   }

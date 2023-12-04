@@ -384,7 +384,7 @@ function App() {
               <h2>1st Masterclass</h2>
             </div>
 
-            <br />
+            <br id="hide_mobile" />
             <br />
             <div className="container">
               <h1>Investing in Oneself</h1>
@@ -404,7 +404,7 @@ function App() {
               <h2>2nd Masterclass</h2>
             </div>
 
-            <br />
+            <br id="hide_mobile" />
             <br />
             <div className="container">
               <h1>Building Excellence</h1>
@@ -423,7 +423,7 @@ function App() {
               <h2>3rd Masterclass</h2>
             </div>
 
-            <br />
+            <br id="hide_mobile" />
             <br />
             <div className="container">
               <h1>Maturity and Responsibility</h1>
@@ -444,7 +444,7 @@ function App() {
               <h2>4th Masterclass</h2>
             </div>
 
-            <br />
+            <br id="hide_mobile" />
             <br />
             <div className="container">
               <h1>Patriotism and Social Capital</h1>

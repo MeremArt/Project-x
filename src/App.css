@@ -727,7 +727,7 @@ button:hover {
     background-image: url(https://res.cloudinary.com/dtfvdjvyr/image/upload/v1699998817/Frame_1000004033_ua4qhx.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 127vh;
+    height: 761px;
     width: calc(100vw);
     margin-top: 59px;
     margin-bottom: 69px;
@@ -811,6 +811,24 @@ button:hover {
     width: 25px;
     height: 25px;
   }
+  .program_x_section3 {
+    background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004038.svg?updatedAt=1700242503757);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 770px;
+    width: calc(100vw);
+    margin-top: 70px;
+    margin-bottom: 69px;
+  }
+  .program_x_section4 {
+    background-image: url(https://ik.imagekit.io/rynknrqlsz/Frame%201000004039.svg?updatedAt=1700243676503);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 770px;
+    width: calc(100vw);
+    margin-top: 20px;
+    margin-bottom: 120px;
+  }
   .Impact p {
     font-size: 16px;
   }
@@ -834,19 +852,48 @@ button:hover {
   }
   .impact_btn {
     border-radius: 100px !important;
-
-    padding: 13px 27px;
-
     margin: auto;
-    text-align: center;
+    padding: 9px 24px;
     font-family: Satoshi;
-    font-size: 18px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     background: #070707;
     color: #fff;
+  }
+  #hide_mobile {
+    display: none;
+  }
+  #space_impact {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .firstcohort {
+    height: 179px;
+    overflow: hidden;
+  }
+  .firstcohort h2 {
+    font-size: 15px;
+  }
+  .firstcohort p {
+    font-size: 10px;
+  }
+  .first_co {
+    font-size: 12px;
+    padding: 9px 24px;
+    margin: auto;
+  }
+  .Impact {
+    height: 198px;
+    overflow: hidden;
+    margin-bottom: 30px;
   }
   .impact_btn:hover {
   }
@@ -863,7 +910,6 @@ button:hover {
 
     align-items: center;
     margin: auto;
-    position: absolute;
   }
 
   #mobile_take h2 {
@@ -891,10 +937,9 @@ button:hover {
     justify-content: center;
     display: flex;
     top: 4719px;
-
+    padding-bottom: 48px;
     align-items: center;
     margin: auto;
-    position: absolute;
   }
   #mobile_become h2 {
     color: var(--grayscale-off-white, #fcfcfc);
@@ -2198,8 +2243,14 @@ button:hover {
   }
 }
 /* Media query for iPhone 11 */
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-  /* Your styles for iPhone 11 go here */
-  body {
+@media screen and (max-width: 375px) and (max-height: 710px) {
+  .masterclass1 {
+    height: 20vh;
+  }
+  .masterclass3 {
+    height: 20vh;
+  }
+  .masterclass2 {
+    height: 20vh;
   }
 }

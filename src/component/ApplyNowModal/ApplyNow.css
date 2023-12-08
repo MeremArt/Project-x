@@ -145,7 +145,6 @@
   flex: 1 0 0;
   &.selected {
     background-image: url("https://res.cloudinary.com/dtfvdjvyr/image/upload/v1701682667/Selected_sffync.png");
-    color: #your_desired_text_color;
 
     background-repeat: no-repeat;
 
@@ -215,6 +214,12 @@
   }
 }
 .cover_white {
+  background: #fff;
+
+  /* shadow */
+  box-shadow: 0px 5px 10px 0px rgba(11, 33, 109, 0.05);
+  height: 67px;
+  padding-top: 10px;
 }
 .choose3 {
   border-radius: 4px;
@@ -291,10 +296,12 @@
 }
 .Textarea {
   color: var(--light-trunks, #999ca0);
-  font-family: Satoshi;
+  font-family: Clash Display;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
+  padding: 15px;
+
   line-height: 22px; /* 137.5% */
   height: 100px;
   width: -webkit-fill-available;

@@ -210,8 +210,9 @@ export default function ApplyNowDetails({ OffFire }) {
                   onClick={handleMember}
                 >
                   <h1 style={{ color: member ? "#FCFCFC" : "black" }}>
-                    What does it mean to you to be a well-rounded & productive
-                    member of society?
+                    How do you plan to utilise the skills, knowledge, and
+                    experiences gained from this project to impact your future
+                    and the society at large?
                   </h1>
                   <div>
                     <input
@@ -227,7 +228,9 @@ export default function ApplyNowDetails({ OffFire }) {
                   onClick={handleConsider}
                 >
                   <h1 style={{ color: consider ? "#FCFCFC" : "black" }}>
-                    What would you consider your biggest achievement so far?
+                    How do you plan to stay committed to the project activities,
+                    assignments, and discussions throughout the duration of the
+                    project?
                   </h1>
                   <div>
                     <input
@@ -263,8 +266,9 @@ export default function ApplyNowDetails({ OffFire }) {
           </div>
         </div>
         <div className="back_color"></div>
-        <div className="cover_white">
-          <div className="fixed_div">
+
+        <div className="fixed_div">
+          <div className="cover_white">
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">

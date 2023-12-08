@@ -107,8 +107,7 @@ export default function ApplyNowDetails({ OffFire }) {
             option1="Undergraduate"
             option2="Graduate"
             option3="Masters"
-            option4="PHD"
-            option5="Professor"
+            option4="Not applicable"
             className="h"
           />
           <FormInput

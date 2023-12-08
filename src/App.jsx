@@ -642,7 +642,9 @@ function App() {
                     </p>
                   </div>
                   <div className="col-lg-2 col-md-2 col-6">
-                    <button className="impact_btn">Join the team</button>
+                    <button onClick={fire} className="impact_btn">
+                      Join the team
+                    </button>
                   </div>
                 </div>
               </div>

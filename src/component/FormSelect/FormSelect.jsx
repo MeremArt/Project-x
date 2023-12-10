@@ -31,6 +31,17 @@ export default function FormSelect({
   option23,
   option24,
   option25,
+  option26,
+  option27,
+  option28,
+  option29,
+  option30,
+  option31,
+  option32,
+  option33,
+  option34,
+  option35,
+  option36,
   placeholder,
 }) {
   return (
@@ -65,6 +76,17 @@ export default function FormSelect({
         <option value={option23}>{option23}</option>
         <option value={option24}>{option24}</option>
         <option value={option25}>{option25}</option>
+        <option value={option26}>{option26}</option>
+        <option value={option27}>{option27}</option>
+        <option value={option28}>{option28}</option>
+        <option value={option29}>{option29}</option>
+        <option value={option30}>{option30}</option>
+        <option value={option31}>{option31}</option>
+        <option value={option32}>{option32}</option>
+        <option value={option33}>{option33}</option>
+        <option value={option34}>{option34}</option>
+        <option value={option35}>{option35}</option>
+        <option value={option36}>{option36}</option>
       </select>
     </div>
   );

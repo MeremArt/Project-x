@@ -110,7 +110,17 @@ export default function ApplyNowDetails({ OffFire }) {
             option22="Kogi"
             option23="Kwara"
             option24="Lagos"
-            option25="Nasarawa"
+            option25="Niger"
+            option26="Ogun"
+            option27="Ondo"
+            option28="Osun"
+            option29="Oyo"
+            option30="Plateau"
+            option31="Rivers"
+            option32="Sokoto"
+            option33="Taraba"
+            option34="Yobe"
+            option35="Zamfara"
             className="f"
           />
           <FormInput

@@ -18,7 +18,9 @@ export default function FormPutter({ onFileChange }) {
   return (
     <div className="File_num">
       <label className="label_fix">
-        Reference letter (Limit to 200 words).
+        How would you describe the candidate in 200 words (this should be
+        written and submitted by 1 reference eg, parents, teacher, religious
+        leader etc)
       </label>
       <div className="FileInputContainer">
         <div className="File_container">

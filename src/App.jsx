@@ -306,8 +306,8 @@ function App() {
                 <div className="row">
                   <div className="col-lg-10 col-10">
                     <h2>
-                      1ST COHORT -{" "}
-                      <span style={{ color: "#EFFE60" }}>12TH SEPT ‘23</span>{" "}
+                      NEXT COHORT -{" "}
+                      <span style={{ color: "#EFFE60" }}>JANUARY 2024</span>{" "}
                     </h2>
                   </div>
                   <div className="col-lg-2 col-2">
@@ -467,8 +467,8 @@ function App() {
               <div className="row">
                 <div className="col-lg-10 col-10">
                   <h2>
-                    1ST COHORT -{" "}
-                    <span style={{ color: "#EFFE60" }}>12TH SEPT ‘23</span>{" "}
+                   NEXT COHORT -{" "}
+                    <span style={{ color: "#EFFE60" }}>JANUARY 2024</span>{" "}
                   </h2>
                 </div>
                 <div className="col-lg-2 col-2">
